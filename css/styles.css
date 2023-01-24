@@ -1,3 +1,191 @@
 body {
-    background: rgb(255, 252, 228);
+    background: #f5f5f5;
+    font-family: "HelveticaNeue";
+   /* grid-template-columns: repeat(2, 1fr); */
+  /*  font-size: 40px; */
+}
+
+
+.three {
+    display: flex;
+    justify-content: center;
+}
+
+
+.header {
+    /* display: flex;
+     justify-content: space-between; */
+     font-size: 70px;
+      /*
+     display: grid;
+    grid-template-columns: 20% 0fr; */
+     padding-top: 2rem;
+     padding-left: 3.5rem;
+     color: #f5f5f5;
+     stroke-weight: 0.5px;
+     stroke-color: rgb(73, 73, 73);
+  }
+
+  .header:hover {
+    stroke-color: #f5f5f5;
+    color: rgb(238, 155, 0);
+  }
+
+  .sur {
+    font-size: 70px; 
+    padding-top: 6.2rem;
+    margin-left: -16.7rem;
+    color: #f5f5f5;
+    stroke-weight: 0.5px;
+    stroke-color: rgb(73, 73, 73);
+  }
+
+  
+  .sur:hover {
+    stroke-color: #f5f5f5;
+    color: rgb(238, 155, 0);
+  }
+
+
+   .navigation {
+   /* display: flex; */
+    font-size:27px;
+    width: 1700px;
+   /* justify-content: space-between; 
+    display: grid;
+    grid-template-columns: 60% 1fr; */
+    padding-top: 3.2rem;
+    padding-left: 70rem; /* this is what makes the text move all the way to the right /*
+    padding-top: -4rem;
+    /*padding-bottom: 4rem;*/
+    color:rgb(102, 102, 102);
+    position: relative;
+    left: 90px;
+  }
+
+  .table {
+     padding-top: 9rem;
+     
+  } 
+
+  .p3 {
+      padding-top: 9rem;
+      stroke-width: .5px;
+      stroke-color: rgb(73, 73, 73);
+      color: #f5f5f5;
+  }
+
+  .p3:hover {
+    color: #134aff;
+    stroke-color: #f5f5f5;
+  }
+
+  .p6 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    stroke-width: .5px;
+    stroke-color: rgb(73, 73, 73);
+    color: #f5f5f5;
+  }
+
+  .p6:hover {
+    color: #ab2cff;
+    stroke-color: #f5f5f5;
+  }
+
+
+  a {
+      text-decoration: none;
+      color: #f5f5f5;
+      stroke-width: .5px;
+      stroke-color: rgb(73, 73, 73);
+  }
+
+  a:hover {
+    stroke-color: #f5f5f5;
+  }
+  
+
+.pen:hover {
+      color: #fc7ee7;
+  }
+ 
+.herb:hover {
+    color: rgb(123, 218, 0);
+    stroke-color: #f5f5f5;
+}
+.herb {
+    position: relative;
+    top: 31px;
+    left: -221px;
+}
+
+.asu {
+    position: relative;
+    top: 24px;
+}
+.asu:hover {
+    color: rgb(0, 183, 255);
+    stroke-color: #f5f5f5;
+}
+    
+.tds:hover {
+    color:rgb(240, 216, 0);
+    stroke-color: #f5f5f5;
+}
+.tds {
+    position: relative;
+    top: -4px;
+}
+
+.proj3 { /* image!! */
+    width: 100%;
+    position: relative;
+    top: 29px;
+    left: -1600px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .header {
+         font-size: 380%;
+         padding-top: 0rem;
+         padding-left: 0rem;
+         position:relative;
+         left: 31px;
+      }
+      .sur {
+        font-size: 380%;
+        padding-top: 0rem;
+        margin-left: 0rem;
+        color:  #f5f5f5;
+        position: relative;
+        top: 55px;
+        left: -200px;
+      }
+
+      .navigation {
+         font-size: 140%;
+         padding-top: 0rem;
+         padding-left: 0rem; /* this is what makes the text move all the way to the right */
+         position:relative; 
+         left: -40px;
+         top: 16px;
+       }
+
+       .herb {
+        position: relative;
+        top: 10px;
+        left: 0px;
+    }
+
+    .asu {
+        position: relative;
+        top: 15px;
+    }
+
+    .tds {
+        position: relative;
+        top: 5px;
+    }
 }
