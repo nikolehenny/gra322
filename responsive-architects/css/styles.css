@@ -14,9 +14,14 @@ header {
     height: 48vh; /* vh = viewport height. 60% of the height of your page. wh does this for width */
 }
 
-header .inner {
+.inner {
     margin: 0 auto;
     max-width: 1280px;
+    position: relative;
+}
+
+header .inner {
+    height: 100%; /* height is relative to the container, not page */
 }
 
 nav {
@@ -45,6 +50,71 @@ h1 {
 }
 
 .intro {
+    bottom: 0;
+    left: 0;
     text-transform: uppercase;
-    padding: 16rem 1rem 1rem 1rem;
+    padding: 1rem;
+    position: absolute;
+}
+
+.featured-work {
+    padding: 3rem 1rem;
+}
+
+.featured-work h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.featured-work figure {
+    margin-bottom: 2rem;
+}
+
+.featured-work figcaption {
+    font-size: 14px;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 680px) {
+    .work-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .menu-button {
+        display: none;
+    }
+
+    nav {
+        background-color: rgba(255,255,255,.4); /* the last value is opacity */
+        display: block;
+        padding:1rem;
+    }
+
+    nav ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    nav li {
+        list-style: none;
+    }
+
+    nav a {
+    color:#000;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
 }
