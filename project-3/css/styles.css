@@ -1,34 +1,344 @@
-body {
-    background: black;
-    font-family: 'Helvetica-Neue', sans-serif;
-}
+/* roboto weights: 300, 500, 700 */
 
-/* background: -moz-linearGradient() (top, #5A0221, #B41043, #DD141E, #F05B19, #FF984D, #FFB967);
-    background: -webkit-linearGradient() (top, #5A0221, #B41043, #DD141E, #F05B19, #FF984D, #FFB967);
-    background: linearGradient (top, #5A0221, #B41043, #DD141E, #F05B19, #FF984D, #FFB967);
-*/
+body {
+    /* background: rgb(146, 146, 146); */
+    background: linear-gradient(#5A0221, #B41043, #DD141E, #F05B19, #FF984D, #FFB967);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.37;
+}
 
 .logo {
     width: 300px;
     position: relative;
     left: 140px;
     rotate: 5deg;
+    top: 200px;
 }
 
 .logoText {
-    color:white;
-    width: 450px;
+    color: white;
+    width: 460px;
     font-size: 9px;
-    padding-left: 8.5rem;
+    padding-left: 8.8rem;
     position: relative;
-    top: -50px;
-    font-weight: Light;
+    top: 130px;
 }
 
-.arrow{
-    width: 50px;
+.arrow {
+    width: 35px;
     rotate: 270deg;
     position: relative;
+    left: 125px;
+    top: 250px;
+}
+
+.grapes-top-left {
+    width: 210px;
+    position: relative;
+    left: -200px;
+    top: -85px;
+}
+
+.grapes-bottom-right {
+    width: 210px;
+    position: relative;
+    left: 300px;
+    top: 80px;
+}
+
+.grapes-top-right {
+    width: 210px;
+    position: relative;
+    top: -820px;
+    left: 320px;
+    rotate: 160deg;
+}
+
+.grapes-bottom-left {
+    width: 210px;
+    position: relative;
+    top: -690px;
+    left: -170px;
+    rotate: 180deg;
+}
+
+.grapeBottle {
+    rotate: 25deg;
+    width: 325px;
+    position: relative;
+    top: 600px;
+    left: -170px;
+}
+
+.grape-text-body {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -1140px;
+    left: 130px;
+    width: 220px;
+    font-size: 9px;
+}
+
+.grape-title {
+    color: white;
+    position: relative;
+    top: -1320px;
+    left: 130px;
+    font-size: 13px;
+}
+
+.apple-cherry-bottle {
+    rotate: 335deg;
+    width: 325px;
+    position: relative;
+    top: -650px;
+    left: 170px;
+}
+
+.apples-top-right {
+    width: 540px;
+    position: relative;
+    top: -1385px;
+    left: 130px;
+}
+
+.apples-left {
+    width: 540px;
+    position: relative;
+    top: -1640px;
+    left: -430px;
+}
+
+.cherry-front {
+    width: 440px;
+    position: relative;
+    top: -2340px;
+    left: -370px;
+}
+
+.cherry-stem {
+    width: 440px;
+    position: relative;
+    top: -2109px;
     left: 110px;
-    top: 380px;
+    rotate: 260deg;
+}
+
+.apple-cherry-text-body {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -2480px;
+    left: 3px;
+    width: 200px;
+    font-size: 9px;
+}
+
+.apple-cherry-title {
+    color: white;
+    position: relative;
+    top: -2687px;
+    left: 0px;
+    font-size: 13px;
+}
+
+.citrus-delight {
+    rotate: 25deg;
+    width: 325px;
+    position: relative;
+    top: -2100px;
+    left: -170px;
+}
+
+.citrus-delight-text-body {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -2435px;
+    left: 130px;
+    width: 220px;
+    font-size: 9px;
+}
+
+.citrus-delight-title {
+    color: white;
+    position: relative;
+    top: -2670px;
+    left: 127px;
+    font-size: 13px;
+}
+
+.grapefruit-top-left {
+    width: 190px;
+    position: relative;
+    top: -3100px;
+    left: -220px;
+    rotate: 180deg;
+}
+
+.grapefruit-bottom-right {
+    width: 190px;
+    position: relative;
+    top: -2800px;
+    left: 370px;
+    rotate: 0deg;
+}
+
+.orange {
+    width: 560px;
+    position: relative;
+    top: -2930px;
+    left: -300px;
+    rotate: 1500deg;
+}
+
+.lime {
+    width: 550px;
+    position: relative;
+    top: -3750px;
+    left: 55px;
+    rotate: 0deg;
+}
+
+.peach-bottle {
+    rotate: 335deg;
+    width: 325px;
+    position: relative;
+    top: -3090px;
+    left: 170px;
+}
+
+.peach-top-left {
+    rotate: 0deg;
+    width: 325px;
+    position: relative;
+    top: -3880px;
+    left: -210px;
+}
+
+.peach-top-right {
+    width: 300px;
+    position: relative;
+    top: -4010px;
+    left: 240px;
+    rotate: 120deg;
+}
+
+.peach-bottom-left {
+    width: 300px;
+    position: relative;
+    top: -3830px;
+    left: 15px;
+    rotate: 205deg;
+}
+
+.peach-text-body {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -4290px;
+    left: -65px;
+    width: 200px;
+    font-size: 9px;
+}
+
+.peach-title {
+    color: white;
+    position: relative;
+    top: -4410px;
+    left: -65px;
+    font-size: 13px;
+}
+
+
+.banana-bottle {
+    rotate: 25deg;
+    width: 325px;
+    position: relative;
+    top: -3750px;
+    left: -170px;
+}
+
+.bananas {
+    width: 460px;
+    position: relative;
+    top: -4444px;
+    left: -300px;
+    rotate: 90deg;
+}
+
+.bananas-bottom-left {
+    width: 460px;
+    position: relative;
+    top: -4200px;
+    left: -300px;
+    rotate: 85deg;
+}
+
+.bananas-bottom-right {
+    width: 460px;
+    position: relative;
+    top: -4410px;
+    left: 220px;
+    rotate: 85deg;
+}
+
+.bananas-top-right {
+    width: 460px;
+    position: relative;
+    top: -5550px;
+    left: 220px;
+    rotate: 55deg;
+}
+
+.banana-text-body {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -5450px;
+    left: 135px;
+    width: 230px;
+    font-size: 9px;
+}
+
+.banana-title {
+    color: white;
+    position: relative;
+    top: -5655px;
+    left: 135px;
+    font-size: 13px;
+}
+
+.logo-bottom {
+    position: relative;
+    width: 200px;
+    left: 55px;
+    rotate: 5deg;
+    top: -5150px;
+}
+
+.flag {
+    position: relative;
+    width: 50px;
+    left: 125px;
+    top: -5180px;
+}
+
+button {
+    font-family: 'Helvetica-Neue', sans-serif;
+    position: relative;
+    top: -9505px;
+    left: 135px;
+    width: 130px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 19px;
+    border-radius: 80px;
+}
+
+.copyright {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -5200px;
+    left: -40px;
+    width: 400px;
+    font-size: 6px;
+    text-align: center;
 }
