@@ -13,16 +13,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="css/styles.css">
+
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
-  <script src="https://kit.fontawesome.com/3cb1d84649.js" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/3cb1d84649.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- Add your content here -->
-  <header>
+  <header class="jarallax">
 
     <div class="inner">
 
@@ -50,13 +52,12 @@
 
       </div>
 
-      <p class="intro"><i class="fa-solid fa-heart"></i>We are responsive architects. We create architecture, landscapes, and interiors.</p>
+      <p class="intro"><i class="fa-solid fa-heart"></i>We are responsive architects. We create architecture,
+        landscapes, and interiors.</p>
 
     </div>
 
   </header>
-
-
 
   <section class="featured-work">
 
@@ -66,17 +67,19 @@
 
       <div class="work-grid">
 
-        <figure>
+        <!-- things added to the figure tag are plug in animations-->
+
+        <figure class="rellax" data-rellax-speed="7">
           <img src="img/project-1.jpg" alt="Building with blue sky behind it" />
           <figcaption>Chaoyang</figcaption>
         </figure>
 
-        <figure>
+        <figure class="rellax" data-rellax-speed="7">
           <img src="img/project-2.jpg" alt="Building with blue sky behind it" />
           <figcaption>Axel Towers</figcaption>
         </figure>
 
-        <figure>
+        <figure class="rellax" data-rellax-speed="7">
           <img src="img/project-3.jpg" alt="Building with blue sky behind it" />
           <figcaption>B&B Expo Milano</figcaption>
         </figure>
@@ -87,29 +90,30 @@
 
   </section>
 
-
-
-  <section class="studio">
-    <p>ABOUT THE STUDIO</p>
+  <section class="about">
+    <div class="inner">
+      <h3 data-aos="fade-right">ABOUT THE STUDIO</h3>
+      <p>Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know,
+        everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and
+        suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every
+        hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in
+        love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt
+        politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species
+        lived there--on a mote of dust suspended in a sunbeam.</p>
+    </div>
   </section>
 
-  <section class="text-body">
-    <p>Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone
-      you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering,
-      thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and
-      coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every
-      mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every
-      "superstar," every "supreme leader," every saint and sinner in the history of our species lived there--on a mote
-      of dust suspended in a sunbeam.</p>
-  </section>
-
-
-  <footer>
-    <p> © 2023 RESPONSIVE ARCHITECTS </p>
+  <footer class="inner">
+    <p>&copy;2023 RESPONSIVE ARCHITECTS</p>
   </footer>
 
   <!-- Load Scripts -->
-  <script src="js/scripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+
+  <script src="js/scripts.js"></script> <!-- all scripts have to go before this one-->
 </body>
 
 </html>
