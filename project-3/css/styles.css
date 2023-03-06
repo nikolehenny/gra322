@@ -5,7 +5,6 @@
 #B41043
 #DD141E
 #F05B19
-
 #FF984D
 #FFB967
 */
@@ -36,12 +35,13 @@ body {
 
 .intro p {
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     color: white;
-    width: 80%;
+    width: 50%;
     font-size: 16px;
     margin-bottom: 2rem;
     margin-top: -4rem;
+    margin-left: 9.5rem;
 }
 
 .arrow {
@@ -359,6 +359,9 @@ body {
     margin-top: 13rem;
 }
 
+
+
+
 .section5 {
     background: linear-gradient(#FFB967, #ffc481);
     padding-bottom: 8rem;
@@ -434,6 +437,10 @@ body {
     margin-top: 14rem;
     margin-right: -13rem;
 }
+
+
+
+
 
 .bottom {
     background-color: #FFFDF2;
@@ -518,3 +525,492 @@ body {
 }
 
 
+
+
+/* min width if mobile coded first, max width if desktop coded first */
+@media (min-width: 800px) {
+
+    .logo {
+        margin: 0 auto;
+        width: 400px;
+        rotate: 5deg;
+        padding: none;
+        margin-top: -4rem;
+    }
+
+    .intro p {
+        margin: 0 auto;
+        text-align: left;
+        width: 22%;
+        font-size: 20px;
+        margin-top: -5.5rem;
+        margin-left: 44.5rem;
+    }
+
+    .arrow {
+        margin: 0 auto;
+        width: 35px;
+        rotate: 270deg;
+        margin-top: 11rem;
+    }
+
+
+
+    .grape-bottle {
+        margin: 0 auto;
+        rotate: 25deg;
+        width: 400px;
+        margin-left: -2rem;
+    }
+
+    .grapes-bottom-left {
+        margin: 0 auto;
+        width: 300px;
+        margin-top: -19rem;
+        margin-left: -4rem;
+    }
+
+    .grapes-top-left {
+        margin: 0 auto;
+        width: 300px;
+        margin-top: -69rem;
+        margin-left: -3rem;
+    }
+
+    .grapes-top-right {
+        margin: 0 auto;
+        width: 300px;
+        rotate: 170deg;
+        margin-top: -30rem;
+        margin-right: -4rem;
+    }
+
+    .grapes-bottom-right {
+        margin: 0 auto;
+        rotate: 165deg;
+        width: 300px;
+        margin-top: 2rem;
+        margin-right: -6rem;
+    }
+
+
+
+    .section1 h1 {
+        margin: 0 auto;
+        font-size: 40px;
+        margin-left: 28.5rem;
+    }
+
+    .section1 p {
+        margin: 0 auto;
+        width: 34%;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-bottom: -81rem;
+        margin-left: 32rem;
+    }
+
+    .items1 {
+        margin-top: -42rem;
+    }
+
+    .button1 {
+        background: transparent;
+        border: 2px solid #fff;
+        padding: 1rem;
+        border-radius: 50px;
+        color: white;
+        margin-left: 44.5rem;
+        margin-top: 82rem;
+        font-size: 20px;
+    }
+
+
+
+
+    .apple-cherry-bottle {
+        margin: 0 auto;
+        rotate: 335deg;
+        width: 400px;
+        margin-right: -2rem;
+    }
+
+    .apples-left {
+        margin: 0 auto;
+        rotate: 5deg;
+        width: 890px;
+        margin-top: -54rem;
+        margin-left: -24rem;
+    }
+
+    .apples-right {
+        margin: 0 auto;
+        width: 890px;
+        margin-top: -53rem;
+        margin-right: -29rem;
+    }
+
+    .cherry-front {
+        width: 630px;
+        margin-top: -65rem;
+        margin-left: 82rem;
+    }
+
+    .cherry-stem1 {
+        width: 700px;
+        margin-top: -15rem;
+        margin-left: -4rem;
+    }
+
+    .cherry-stem2 {
+        /* bottom right */
+        width: 700px;
+        margin-top: 17rem;
+        margin-left: 73rem;
+    }
+
+    .section2 h1 {
+        margin: 0 auto;
+        font-size: 40px;
+        margin-left: 44.5rem;
+        margin-top: 25rem;
+    }
+
+    .section2 p {
+        margin: 0 auto;
+        width: 24%;
+        font-size: 20px;
+        margin-left: 44.5rem;
+    }
+
+    .button2 {
+        background: transparent;
+        border: 2px solid #fff;
+        padding: 1rem;
+        border-radius: 50px;
+        color: white;
+        margin-left: 44.5rem;
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+
+    .items2 {
+        margin-top: -40rem;
+    }
+
+
+
+    .section3 h1 {
+        margin: 0 auto;
+        color: white;
+        font-size: 40px;
+        margin-left: 44.5rem;
+    }
+
+    .section3 p {
+        margin: 0 auto;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 23%;
+        margin-bottom: -35rem;
+        margin-left: 44.5rem;
+    }
+
+    .button3 {
+        background: transparent;
+        border: 2px solid #fff;
+        padding: 1rem;
+        border-radius: 50px;
+        color: white;
+        margin-left: 44.5rem;
+        margin-top: 36rem;
+        font-size: 20px;
+    }
+
+    .items3 {
+        margin-top: -41rem;
+    }
+
+
+    .citrus-delight-bottle {
+        margin: 0 auto;
+        rotate: 25deg;
+        width: 400px;
+        margin-left: -2rem;
+        padding-top: 3rem;
+        z-index: 10;
+    }
+
+    .grapefruit-left {
+        width: 250px;
+        rotate: 170deg;
+        margin: 0 auto;
+        margin-left: -7rem;
+        margin-top: -60rem;
+    }
+
+    .grapefruit-right {
+        width: 250px;
+        margin: 0 auto;
+        margin-right: -5rem;
+        margin-top: 22rem;
+    }
+
+    .lime {
+        margin: 0 auto;
+        margin-top: -56rem;
+        margin-left: 65rem;
+        width: 820px;
+    }
+
+    .orange {
+        margin: 0 auto;
+        width: 700px;
+        rotate: 50deg;
+        margin-top: 19rem;
+        margin-left: -13rem;
+    }
+
+
+
+
+
+    .peach-bottle {
+        margin: 0 auto;
+        rotate: 335deg;
+        width: 400px;
+        margin-right: -2rem;
+    }
+
+    /* peach locations are not correct in titles atm */
+    .peach-top-left {
+        margin: zero auto;
+        width: 450px;
+        margin: 0 auto;
+        rotate: 25deg;
+        margin-left: 7rem;
+        margin-top: -58rem;
+    }
+
+    .peach-left {
+        margin: zero auto;
+        width: 450px;
+        rotate: -30deg;
+        margin-top: 8rem;
+        margin-left: -8rem;
+    }
+
+    .peach-bottom-left {
+        margin: zero auto;
+        width: 450px;
+        margin-top: -60rem;
+        margin-left: 95rem;
+    }
+
+    .peach-top-right {
+        margin: zero auto;
+        width: 450px;
+        rotate: 180deg;
+        margin-top: -18rem;
+        margin-left: -13rem;
+    }
+
+    .peach-bottom-right {
+        margin: zero auto;
+        width: 450px;
+        margin-top: 5rem;
+        margin-left: 100rem;
+    }
+
+    .section4 h1 {
+        margin: 0 auto;
+        font-size: 40px;
+        margin-left: 44.5rem;
+        margin-top: -7rem;
+    }
+
+    .section4 p {
+        margin: 0 auto;
+        font-size: 20px;
+        width: 25%;
+        margin-left: 44.5rem;
+
+    }
+
+    .button4 {
+        background: transparent;
+        border: 2px solid #fff;
+        padding: 1rem;
+        border-radius: 50px;
+        color: white;
+        margin-left: 44.5rem;
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+
+    .items4 {
+        margin-top: -41rem;
+    }
+
+
+
+
+
+    .section5 h1 {
+        margin: 0 auto;
+        font-size: 40px;
+        margin-left: 44.5rem;
+    }
+
+    .section5 p {
+        margin: 0 auto;
+        width: 25%;
+        font-size: 20px;
+        margin-bottom: -31rem;
+        margin-left: 44.5rem;
+    }
+
+    .button5 {
+        background: transparent;
+        border: 2px solid #fff;
+        padding: 1rem;
+        border-radius: 50px;
+        font-size: 20px;
+        margin-left: 44.5rem;
+    }
+
+    .items5 {
+        margin-top: -40rem;
+    }
+
+    .banana-bottle {
+        margin: 0 auto;
+        rotate: 25deg;
+        width: 400px;
+        margin-left: -2rem;
+        z-index: 10;
+    }
+
+    /*bleeds off the bottle! :D */
+    .banana-top-left {
+        margin: 0 auto;
+        rotate: 90deg;
+        width: 650px;
+        margin-top: -55rem;
+        margin-left: -13.5rem;
+    }
+
+    .banana-bottom-left {
+        width: 650px;
+        margin: 0 auto;
+        margin-top: 13rem;
+        margin-left: -15.5rem;
+    }
+
+    .banana-top-right {
+        margin: 0 auto;
+        width: 650px;
+        margin-top: -72rem;
+        margin-right: -13rem;
+    }
+
+    .banana-bottom-right {
+        margin: 0 auto;
+        rotate: 280deg;
+        width: 650px;
+        margin-top: 6rem;
+        margin-right: -14rem;
+    }
+
+
+
+
+
+
+.bottom {
+    background-color: #FFFDF2;
+}
+
+.logo-bottom {
+    width: 260px;
+    margin: 0 auto;
+    rotate: 5deg;
+    margin-top: -13rem;
+}
+
+.flag {
+    margin: 0 auto;
+    width: 60px;
+    margin-top: -3rem;
+}
+
+.bottom p {
+    /* copyright */
+    color: rgb(0, 0, 0);
+    width: 1000px;
+    font-size: 15px;
+    padding: 1rem;
+    padding-top: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom h1 {
+    /* HISTORY */
+    color: black;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: -15rem;
+    margin-top: -5rem;
+}
+
+.bottom h2 {
+    /* CONTACT */
+    color: black;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: -15rem;
+    margin-top: 1.3em;
+    padding-bottom: 3.5rem;
+}
+
+.bottom h3 {
+    /* CAREERS */
+    color: black;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: -8.5rem;
+    padding-bottom: .6rem;
+}
+
+.bottom h4 {
+    /* ACCESSIBILITY */
+    color: black;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 18.5rem;
+    margin-top: 1rem;
+}
+
+
+.fa-instagram {
+    color: black;
+    margin: 0 auto;
+    margin-left: 53.3rem;
+    padding: .5rem;
+}
+
+.fa-twitter {
+    padding-right: .5rem;
+}
+
+
+
+
+
+}
