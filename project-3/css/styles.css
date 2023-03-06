@@ -232,7 +232,7 @@ body {
     border-radius: 50px;
     color: white;
     margin-left: 15rem;
-    margin-top:36rem;
+    margin-top: 36rem;
 }
 
 .items3 {
@@ -359,7 +359,6 @@ body {
     margin-top: 13rem;
 }
 
-
 .section5 {
     background: linear-gradient(#FFB967, #ffc481);
     padding-bottom: 8rem;
@@ -436,14 +435,12 @@ body {
     margin-right: -13rem;
 }
 
-
-
 .bottom {
     background-color: #FFFDF2;
 }
 
 .logo-bottom {
-    width: 130px;
+    width: 160px;
     margin: 0 auto;
     rotate: 5deg;
     margin-top: -13rem;
@@ -451,14 +448,15 @@ body {
 
 .flag {
     margin: 0 auto;
-    width: 60px;
+    width: 40px;
     margin-top: -2rem;
 }
 
 .bottom p {
+    /* copyright */
     color: rgb(0, 0, 0);
-    width: 440px;
-    font-size: 13px;
+    width: 450px;
+    font-size: 11px;
     padding: 1rem;
     padding-top: 2rem;
     margin: 0 auto;
@@ -466,10 +464,57 @@ body {
 }
 
 .bottom h1 {
+    /* HISTORY */
     color: black;
     font-size: 10px;
     margin: 0 auto;
     text-align: center;
     margin-left: -10rem;
-    margin-top: -3.1rem;
+    margin-top: -3.7rem;
 }
+
+.bottom h2 {
+    /* CONTACT */
+    color: black;
+    font-size: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: -9.8rem;
+    margin-top: 1.7rem;
+}
+
+.bottom h3 {
+    /* CAREERS */
+    color: black;
+    font-size: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: -3.3rem;
+    padding-bottom: .6rem;
+}
+
+.bottom h4 {
+    /* ACCESSIBILITY */
+    color: black;
+    font-size: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 12rem;
+    margin-top: 1.1rem;
+}
+
+
+.fa-instagram {
+    color: black;
+    margin: 0 auto;
+    margin-left: 15.4rem;
+    margin-top: -1rem;
+    padding: .5rem;
+}
+
+.fa-twitter {
+    padding-right: .5rem;
+}
+
+
