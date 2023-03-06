@@ -1,4 +1,4 @@
-/* roboto weights: 300, 500, 700 */
+/* roboto weights: 300, 400, 500, 700 */
 
 /*gradients:
 #5A0221
@@ -42,7 +42,6 @@ body {
     font-size: 16px;
     margin-bottom: 2rem;
     margin-top: -4rem;
-    font-weight: 500;
 }
 
 .arrow {
@@ -433,8 +432,8 @@ body {
     rotate: 260deg;
     width: 550px;
     margin: 0 auto;
-    margin-top: 7rem;
-    margin-right: -15rem;
+    margin-top: 14rem;
+    margin-right: -13rem;
 }
 
 
@@ -444,7 +443,7 @@ body {
 }
 
 .logo-bottom {
-    width: 200px;
+    width: 130px;
     margin: 0 auto;
     rotate: 5deg;
     margin-top: -13rem;
@@ -452,7 +451,7 @@ body {
 
 .flag {
     margin: 0 auto;
-    width: 50px;
+    width: 60px;
     margin-top: -2rem;
 }
 
@@ -468,7 +467,9 @@ body {
 
 .bottom h1 {
     color: black;
-    font-size: 16px;
+    font-size: 10px;
     margin: 0 auto;
     text-align: center;
+    margin-left: -10rem;
+    margin-top: -3.1rem;
 }
