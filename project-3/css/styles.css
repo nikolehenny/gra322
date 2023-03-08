@@ -29,7 +29,7 @@ body {
     margin: 0 auto;
     width: 300px;
     rotate: 5deg;
-    padding-top: 270px;
+    padding-top: 220px;
     padding-left: 1rem;
 }
 
@@ -37,35 +37,36 @@ body {
     margin: 0 auto;
     text-align: left;
     color: white;
-    width: 50%;
+    width: 69%;
     font-size: 16px;
     margin-bottom: 2rem;
     margin-top: -4rem;
-    margin-left: 9.5rem;
+    margin-left: 4rem;
 }
 
 .arrow {
     margin: 0 auto;
     width: 35px;
     rotate: 270deg;
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
 
 .section1 {
     background: linear-gradient(#B41043, #DD141E);
-    padding-top: 33rem;
+    padding-top: 27rem;
 }
 
 .section1 h1 {
     margin: 0 auto;
     color: white;
     font-size: 20px;
-    padding-left: 16rem;
+    padding-left: 12.4rem;
+    padding-top: 3rem;
 }
 
 .section1 p {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     color: rgb(255, 255, 255);
     font-size: 16px;
     padding-left: 12.5rem;
@@ -73,7 +74,7 @@ body {
 }
 
 .items1 {
-    margin-top: -37rem;
+    margin-top: -39rem;
 }
 
 .button1 {
@@ -82,14 +83,14 @@ body {
     padding: 1rem;
     border-radius: 50px;
     color: white;
-    margin-left: 16rem;
+    margin-left: 12.5rem;
     margin-top: 82rem;
 }
 
 .grape-bottle {
     margin: 0 auto;
     rotate: 25deg;
-    width: 325px;
+    width: 300px;
     margin-left: -2rem;
     padding-top: 5rem;
 }
@@ -111,17 +112,16 @@ body {
 .grapes-top-right {
     margin: 0 auto;
     width: 210px;
-    rotate: 120deg;
     margin-top: -22rem;
-    margin-left: 27rem;
+    margin-left: 18rem;
 }
 
 .grapes-bottom-right {
     margin: 0 auto;
-    rotate: 28deg;
+    rotate: 170deg;
     width: 210px;
-    margin-top: 8rem;
-    margin-left: 29rem;
+    margin-top: 11rem;
+    margin-left: 18rem;
 }
 
 
