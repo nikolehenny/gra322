@@ -29,7 +29,7 @@ body {
     margin: 0 auto;
     width: 300px;
     rotate: 5deg;
-    padding-top: 220px;
+    padding-top: 100px;
     padding-left: 1rem;
 }
 
@@ -41,40 +41,40 @@ body {
     font-size: 16px;
     margin-bottom: 2rem;
     margin-top: -4rem;
-    margin-left: 4rem;
+    margin-left: 4.5rem;
 }
 
 .arrow {
     margin: 0 auto;
     width: 35px;
     rotate: 270deg;
-    margin-top: 12rem;
+    margin-top: 18rem;
 }
 
 .section1 {
     background: linear-gradient(#B41043, #DD141E);
-    padding-top: 27rem;
+    padding-top: 33rem;
 }
 
 .section1 h1 {
     margin: 0 auto;
     color: white;
     font-size: 20px;
-    padding-left: 12.4rem;
+    padding-left: 12.8rem;
     padding-top: 3rem;
 }
 
 .section1 p {
     margin: 0 auto;
-    width: 100%;
+    width: 85%;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    padding-left: 12.5rem;
+    padding-left: 11rem;
     margin-bottom: -81rem;
 }
 
 .items1 {
-    margin-top: -39rem;
+    margin-top: -33rem;
 }
 
 .button1 {
@@ -83,16 +83,15 @@ body {
     padding: 1rem;
     border-radius: 50px;
     color: white;
-    margin-left: 12.5rem;
+    margin-left: 13rem;
     margin-top: 82rem;
 }
 
 .grape-bottle {
     margin: 0 auto;
     rotate: 25deg;
-    width: 300px;
+    width: 280px;
     margin-left: -2rem;
-    padding-top: 5rem;
 }
 
 .grapes-bottom-left {
@@ -120,23 +119,23 @@ body {
     margin: 0 auto;
     rotate: 170deg;
     width: 210px;
-    margin-top: 11rem;
-    margin-left: 18rem;
+    margin-top: 16rem;
+    margin-left: 20rem;
 }
 
 
 
 .section2 {
     background: linear-gradient(#DD141E, #F05B19);
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 
 .section2 h1 {
     margin: 0 auto;
     color: white;
     font-size: 20px;
-    margin-left: 7rem;
-    margin-top: 20rem;
+    margin-left: 2rem;
+    margin-top: 18rem;
 }
 
 .section2 p {
@@ -144,7 +143,7 @@ body {
     width: 40%;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    margin-left: 7rem;
+    margin-left: 2rem;
     margin-bottom: -33rem;
 }
 
@@ -154,51 +153,53 @@ body {
     padding: 1rem;
     border-radius: 50px;
     color: white;
-    margin-left: 7rem;
+    margin-left: 2rem;
     margin-top: 34rem;
 }
 
 .items2 {
-    margin-top: -37rem;
+    margin-top: -32rem;
 }
 
 .apple-cherry-bottle {
     margin: 0 auto;
     rotate: 335deg;
-    width: 325px;
+    width: 280px;
     margin-right: -2rem;
-    padding-top: 3rem;
+    margin-top: -6rem;
 }
 
 .apples-left {
+    rotate: 25deg;
     margin: 0 auto;
-    margin-left: -21rem;
+    margin-left: -12rem;
     margin-top: -40rem;
 }
 
 .apples-right {
     margin: 0 auto;
-    margin-left: 18rem;
-    margin-top: -40rem;
+    margin-left: 10rem;
+    margin-top: -28rem;
 }
 
 .cherry-front {
     width: 450px;
-    margin-left: -14rem;
-    margin-top: -16rem;
+    margin-left: -10rem;
+    margin-top: 10rem;
 }
 
 .cherry-stem1 {
+    z-index: 10;
     width: 450px;
-    margin-left: -8rem;
-    margin-top: -28rem;
+    margin-left: -3rem;
+    margin-top: -50rem;
 }
 
 .cherry-stem2 {
     width: 450px;
     rotate: 270deg;
-    margin-left: 12rem;
-    margin-top: 10rem;
+    margin-left: 5.5rem;
+    margin-top: 29rem;
 }
 
 
@@ -206,23 +207,23 @@ body {
 
 .section3 {
     background: linear-gradient(#F05B19, #FF984D);
-    padding-top: 30rem;
+    padding-top: 21rem;
 }
 
 .section3 h1 {
     margin: 0 auto;
     color: white;
     font-size: 20px;
-    margin-left: 15rem;
+    margin-left: 13rem;
 }
 
 .section3 p {
     margin: 0 auto;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    width: 45%;
+    width: 40%;
     margin-bottom: -35rem;
-    margin-left: 15rem;
+    margin-left: 13rem;
 }
 
 .button3 {
@@ -231,7 +232,7 @@ body {
     padding: 1rem;
     border-radius: 50px;
     color: white;
-    margin-left: 15rem;
+    margin-left: 13rem;
     margin-top: 36rem;
 }
 
@@ -243,7 +244,7 @@ body {
 .citrus-delight-bottle {
     margin: 0 auto;
     rotate: 25deg;
-    width: 325px;
+    width: 280px;
     margin-left: -2rem;
     padding-top: 3rem;
     position: relative;
@@ -251,32 +252,32 @@ body {
 }
 
 .grapefruit-left {
-    width: 180px;
+    width: 140px;
     rotate: 170deg;
     margin: 0 auto;
     margin-left: -2rem;
-    margin-top: -44rem;
+    margin-top: -39rem;
 }
 
 .grapefruit-right {
-    width: 180px;
+    width: 140px;
     margin: 0 auto;
     margin-right: -6rem;
-    margin-top: 18rem;
+    margin-top: 22rem;
 }
 
 .lime {
     margin: 0 auto;
     margin-top: -35rem;
-    margin-left: 20rem;
-    width: 270px;
+    margin-left: 17rem;
+    width: 190px;
 }
 
 .orange {
     margin: 0 auto;
     width: 500px;
     rotate: 50deg;
-    margin-top: 14rem;
+    margin-top: 17rem;
     margin-left: -8rem;
 }
 
@@ -286,23 +287,24 @@ body {
 
 .section4 {
     background: linear-gradient(#FF984D, #FFB967);
-    padding-top: 30rem;
+    padding-top: 22rem;
 }
 
 .section4 h1 {
     margin: 0 auto;
     color: white;
     font-size: 20px;
-    margin-left: 5rem;
+    margin-left: 1.5rem;
+    margin-top: -1.5rem;
 }
 
 .section4 p {
     margin: 0 auto;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    width: 50%;
+    width: 42%;
     margin-bottom: -30rem;
-    margin-left: 5rem;
+    margin-left: 1.5rem;
 }
 
 .button4 {
@@ -311,18 +313,18 @@ body {
     padding: 1rem;
     border-radius: 50px;
     color: white;
-    margin-left: 5rem;
+    margin-left: 1.5rem;
     margin-top: 31rem;
 }
 
 .items4 {
-    margin-top: -34rem;
+    margin-top: -31rem;
 }
 
 .peach-bottle {
     margin: 0 auto;
     rotate: 335deg;
-    width: 325px;
+    width: 280px;
     margin-right: -2rem;
     padding-top: 3rem;
 }
@@ -331,33 +333,33 @@ body {
     width: 300px;
     margin: 0 auto;
     rotate: 25deg;
-    margin-left: -10rem;
-    margin-top: -50rem;
+    margin-left: -12rem;
+    margin-top: -44rem;
 }
 
 .peach-left {
     width: 300px;
-    margin-left: -6rem;
-    margin-top: -12rem;
+    margin-left: -10rem;
+    margin-top: -14rem;
 }
 
 .peach-bottom-left {
     width: 300px;
     rotate: 200deg;
-    margin-left: -10rem;
-    margin-top: 10rem;
+    margin-left: -7rem;
+    margin-top: 12rem;
 }
 
 .peach-top-right {
     width: 300px;
-    margin-left: 24rem;
-    margin-top: -43rem;
+    margin-left: 14rem;
+    margin-top: -40rem;
 }
 
 .peach-bottom-right {
     width: 300px;
     margin-left: 24rem;
-    margin-top: 13rem;
+    margin-top: 0rem;
 }
 
 
@@ -366,23 +368,24 @@ body {
 .section5 {
     background: linear-gradient(#FFB967, #ffc481);
     padding-bottom: 8rem;
-    padding-top: 25rem;
+    padding-top: 30rem;
 }
 
 .section5 h1 {
     margin: 0 auto;
     color: white;
     font-size: 20px;
-    margin-left: 15rem;
+    margin-left: 13rem;
+    margin-top: -2rem;
 }
 
 .section5 p {
     margin: 0 auto;
-    width: 45%;
+    width: 43%;
     color: rgb(255, 255, 255);
     font-size: 16px;
     margin-bottom: -31rem;
-    margin-left: 15rem;
+    margin-left: 13rem;
 }
 
 .button5 {
@@ -391,18 +394,18 @@ body {
     padding: 1rem;
     border-radius: 50px;
     color: white;
-    margin-left: 15rem;
+    margin-left: 13rem;
     margin-top: 32rem;
 }
 
 .items5 {
-    margin-top: -36rem;
+    margin-top: -34rem;
 }
 
 .banana-bottle {
     margin: 0 auto;
     rotate: 25deg;
-    width: 325px;
+    width: 280px;
     margin-left: -2rem;
     position: relative;
     z-index: 10;
@@ -411,15 +414,15 @@ body {
 .banana-top-left {
     rotate: 90deg;
     width: 550px;
-    margin-top: -41rem;
-    margin-left: -15rem;
+    margin-top: -38rem;
+    margin-left: -10rem;
 }
 
 .banana-bottom-left {
-    rotate: 90deg;
+    rotate: 80deg;
     width: 550px;
-    margin-top: 4rem;
-    margin-left: -15rem;
+    margin-top: 11rem;
+    margin-left: -10rem;
 }
 
 .banana-top-right {
@@ -427,16 +430,16 @@ body {
     width: 550px;
     margin-top: 4rem;
     margin: 0 auto;
-    margin-right: -14rem;
-    margin-top: -56rem;
+    margin-right: -11rem;
+    margin-top: -54rem;
 }
 
 .banana-bottom-right {
-    rotate: 260deg;
+    rotate: 280deg;
     width: 550px;
     margin: 0 auto;
-    margin-top: 14rem;
-    margin-right: -13rem;
+    margin-top: 25rem;
+    margin-right: -12rem;
 }
 
 
@@ -463,7 +466,7 @@ body {
 .bottom p {
     /* copyright */
     color: rgb(0, 0, 0);
-    width: 450px;
+    width: 400px;
     font-size: 11px;
     padding: 1rem;
     padding-top: 2rem;
@@ -488,7 +491,7 @@ body {
     margin: 0 auto;
     text-align: center;
     margin-left: -9.8rem;
-    margin-top: 1.7rem;
+    margin-top: 1.6rem;
 }
 
 .bottom h3 {
@@ -509,15 +512,15 @@ body {
     margin: 0 auto;
     text-align: center;
     margin-left: 12rem;
-    margin-top: 1.1rem;
+    margin-top: 1rem;
 }
 
 
 .fa-instagram {
     color: black;
     margin: 0 auto;
-    margin-left: 15.4rem;
-    margin-top: -1rem;
+    margin-left: 9.5rem;
+    margin-top: -.1rem;
     padding: .5rem;
 }
 
@@ -536,7 +539,8 @@ body {
         width: 400px;
         rotate: 5deg;
         padding: none;
-        margin-top: -4rem;
+        padding-top: 11rem;
+        margin-left: 43rem;
     }
 
     .intro p {
@@ -599,7 +603,7 @@ body {
     .section1 h1 {
         margin: 0 auto;
         font-size: 40px;
-        margin-left: 28.5rem;
+        margin-left: 32.5rem;
     }
 
     .section1 p {
@@ -608,11 +612,11 @@ body {
         color: rgb(255, 255, 255);
         font-size: 20px;
         margin-bottom: -81rem;
-        margin-left: 32rem;
+        margin-left: 34rem;
     }
 
     .items1 {
-        margin-top: -42rem;
+        margin-top: -37rem;
     }
 
     .button1 {
@@ -951,7 +955,7 @@ body {
     width: 1000px;
     font-size: 15px;
     padding: 1rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     margin: 0 auto;
     text-align: center;
 }
