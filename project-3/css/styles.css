@@ -60,16 +60,16 @@ body {
     margin: 0 auto;
     color: white;
     font-size: 20px;
-    padding-left: 12.8rem;
-    padding-top: 3rem;
+    padding-left: 13.5rem;
+    padding-top: 1.7rem;
 }
 
 .section1 p {
     margin: 0 auto;
-    width: 85%;
+    width: 90%;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    padding-left: 11rem;
+    padding-left: 12.3rem;
     margin-bottom: -81rem;
 }
 
@@ -83,7 +83,7 @@ body {
     padding: 1rem;
     border-radius: 50px;
     color: white;
-    margin-left: 13rem;
+    margin-left: 13.6rem;
     margin-top: 82rem;
 }
 
@@ -122,6 +122,8 @@ body {
     margin-top: 16rem;
     margin-left: 20rem;
 }
+
+
 
 
 
@@ -368,7 +370,7 @@ body {
 .section5 {
     background: linear-gradient(#FFB967, #ffc481);
     padding-bottom: 8rem;
-    padding-top: 30rem;
+    padding-top: 32rem;
 }
 
 .section5 h1 {
@@ -561,6 +563,7 @@ body {
 
 
 
+
     .grape-bottle {
         margin: 0 auto;
         rotate: 25deg;
@@ -598,12 +601,10 @@ body {
         margin-right: -6rem;
     }
 
-
-
     .section1 h1 {
         margin: 0 auto;
         font-size: 40px;
-        margin-left: 32.5rem;
+        margin-left: 31.5rem;
     }
 
     .section1 p {
@@ -612,7 +613,7 @@ body {
         color: rgb(255, 255, 255);
         font-size: 20px;
         margin-bottom: -81rem;
-        margin-left: 34rem;
+        margin-left: 33.5rem;
     }
 
     .items1 {
@@ -632,6 +633,9 @@ body {
 
 
 
+    .section2 {
+        padding-top: 10rem;
+    }
 
     .apple-cherry-bottle {
         margin: 0 auto;
@@ -704,6 +708,12 @@ body {
     }
 
 
+
+
+
+    .section3 {
+        padding-top: 30rem;
+    }
 
     .section3 h1 {
         margin: 0 auto;
@@ -778,7 +788,9 @@ body {
 
 
 
-
+    .section4 {
+        padding-top: 33rem;
+    }
 
     .peach-bottle {
         margin: 0 auto;
@@ -793,8 +805,8 @@ body {
         width: 450px;
         margin: 0 auto;
         rotate: 25deg;
-        margin-left: 7rem;
-        margin-top: -58rem;
+        margin-left: 1rem;
+        margin-top: -57rem;
     }
 
     .peach-left {
@@ -860,6 +872,9 @@ body {
 
 
 
+    .section5 {
+        padding-top: 25rem;
+    }
 
     .section5 h1 {
         margin: 0 auto;
