@@ -532,7 +532,7 @@ body {
 
 
 
-
+/* everything under this is for the DESKTOP version */
 /* min width if mobile coded first, max width if desktop coded first */
 @media (min-width: 800px) {
 
@@ -604,7 +604,7 @@ body {
     .section1 h1 {
         margin: 0 auto;
         font-size: 40px;
-        margin-left: 31.5rem;
+        margin-left: 31rem;
     }
 
     .section1 p {
@@ -613,7 +613,7 @@ body {
         color: rgb(255, 255, 255);
         font-size: 20px;
         margin-bottom: -81rem;
-        margin-left: 33.5rem;
+        margin-left: 32.5rem;
     }
 
     .items1 {
