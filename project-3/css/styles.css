@@ -530,7 +530,9 @@ body {
     padding-right: .5rem;
 }
 
+@media (min-width: 600px) {
 
+}
 
 /* everything under this is for the DESKTOP version */
 /* min width if mobile coded first, max width if desktop coded first */

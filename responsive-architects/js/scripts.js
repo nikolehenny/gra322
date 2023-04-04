@@ -1,6 +1,6 @@
 //$('header').hide();
-$('.menu-button').click(function(){
-    $('nav').fadeToggle();
+$('.menu-button').click(function () {
+  $('nav').fadeToggle();
 });
 
 //initalizes 
@@ -19,4 +19,14 @@ var rellax = new Rellax('.rellax', {
   round: true,
   vertical: true,
   horizontal: false
+});
+
+//initializing slider
+var slider = tns({
+  container: '.my-slider',
+  items: 4,
+  slideBy: 'page',
+  autoplay: false,
+  controls: false,
+  mouseDrag: true,
 });
