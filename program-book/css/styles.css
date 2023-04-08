@@ -1,5 +1,11 @@
 body {
-     font-family: 'Univers LT Std', sans-serif; /* 55 and ???? */
+    font-family: 'Univers LT Std', sans-serif;
+    /* 55 and ???? */
+}
+
+.Unsatiable .intro {
+    /* doing something specific to the different projects*/
+    background-color: black;
 }
 
 h1 {
@@ -15,12 +21,36 @@ h2 {
     font-weight: 65;
 }
 
-.Unsatiable {
+/* home page images */
+.unsatiable-image {
     padding: 2rem
 }
 
-.Looza {
+.looza {
     padding: 2rem
-
 }
 
+.preservatives {
+    padding: 2rem
+}
+
+.psaid {
+    padding: 2rem
+}
+
+.app {
+    padding:2rem
+}
+
+.clothing {
+    padding: 2rem
+}
+
+.snickerdoodle {
+    padding: 2rem
+}
+
+.mlk {
+    padding: 2rem
+}
+/* end of home page images */
