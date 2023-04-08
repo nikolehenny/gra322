@@ -4,7 +4,13 @@ body {
 }
 
 
+.menu {
 
+}
+
+.Unsatiable .menu{
+    color: white;
+}
 
 .Unsatiable .intro {
     /* doing something specific to the different projects*/
@@ -97,7 +103,7 @@ body {
     margin-top: -7.1rem;
 }
 
-.process p{
+.process p {
     color: rgb(0, 0, 0);
     padding: 2rem;
     padding-bottom: 19.5rem;
