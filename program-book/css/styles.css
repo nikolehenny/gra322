@@ -3,22 +3,132 @@ body {
     /* 55 and ???? */
 }
 
+
+
+
 .Unsatiable .intro {
     /* doing something specific to the different projects*/
     background-color: black;
 }
+
+.Unsatiable .unsatiable-image {
+    padding: 2rem;
+}
+
+.Unsatiable h1 {
+    color: white;
+    font-weight: 900;
+}
+
+.Unsatiable h2 {
+    color: white;
+    font-weight: 900;
+}
+
+.intro p {
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 21rem;
+}
+
+.Unsatiable .wineglass {
+    width: 130px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.Unsatiable .wishbone {
+    width: 130px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    margin-top: -8.1rem;
+    margin-left: 7.15rem;
+}
+
+.Unsatiable .threeD {
+    width: 130px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    margin-top: -8.1rem;
+    margin-left: 14.3rem;
+}
+
+.Unsatiable .totem {
+    width: 130px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.Unsatiable .stem {
+    width: 130px;
+    padding-left: 2rem;
+    margin-top: -6.1rem;
+    margin-left: 7.2rem;
+}
+
+.Unsatiable .blue {
+    width: 130px;
+    padding-left: 2rem;
+    margin-top: -6.1rem;
+    margin-left: 14.3rem;
+}
+
+.Unsatiable .green {
+    width: 130px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.Unsatiable .pink {
+    width: 130px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin-left: 7.2rem;
+    margin-top: -7.1rem;
+
+}
+
+.Unsatiable .orange {
+    width: 130px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin-left: 14.3rem;
+    margin-top: -7.1rem;
+}
+
+.process p{
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+    padding-bottom: 19.5rem;
+}
+
+
+
+
+
+
+
+
+.nav-active {
+    color: red;
+}
+
+/* this is all for home page????*/
 
 h1 {
     font-size: 16px;
     padding-left: 2rem;
     font-weight: 65;
     padding-top: 2rem;
+    font-weight: 900;
 }
 
 h2 {
     font-size: 16px;
     padding-left: 2rem;
     font-weight: 65;
+    font-weight: 900;
 }
 
 /* home page images */
@@ -39,7 +149,7 @@ h2 {
 }
 
 .app {
-    padding:2rem
+    padding: 2rem
 }
 
 .clothing {
@@ -53,4 +163,5 @@ h2 {
 .mlk {
     padding: 2rem
 }
+
 /* end of home page images */
