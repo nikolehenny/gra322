@@ -5,7 +5,10 @@ body {
 
 
 .menu {
-
+    position: absolute;
+    right: 2rem;
+    top: 5.1rem;
+   /* padding is what increases clickable area, needs to be 44px */
 }
 
 .Unsatiable .menu{
@@ -28,7 +31,7 @@ body {
 
 .Unsatiable h2 {
     color: white;
-    font-weight: 900;
+    font-weight: 100;
 }
 
 .intro p {
@@ -134,40 +137,56 @@ h2 {
     font-size: 16px;
     padding-left: 2rem;
     font-weight: 65;
-    font-weight: 900;
+    font-weight: 100;
 }
 
 /* home page images */
 .unsatiable-image {
-    padding: 2rem
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 .looza {
-    padding: 2rem
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .preservatives {
-    padding: 2rem
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .psaid {
-    padding: 2rem
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .app {
-    padding: 2rem
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .clothing {
-    padding: 2rem
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .snickerdoodle {
-    padding: 2rem
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .mlk {
-    padding: 2rem
+    padding: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 /* end of home page images */
