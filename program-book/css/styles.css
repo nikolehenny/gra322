@@ -240,6 +240,7 @@ h2 {
     .intro p {
         color: white;
         width: 64%;
+        font-size: 15pt;
         margin: 0 auto;
         margin-top: -20rem;
         padding: none;
@@ -255,11 +256,14 @@ h2 {
     .process p {
         color: rgb(0, 0, 0);
         width: 64%;
+        font-size: 15pt;
         margin: 0 auto;
         padding-bottom: none;
     }
 
     /* better way to align this and add stroke please*/
+
+    
     .Unsatiable .wineglass {
         width: 200px;
         margin: 0 auto;
@@ -269,28 +273,28 @@ h2 {
     .Unsatiable .wishbone {
         width: 200px;
         margin: 0 auto;
-        margin-left: 32rem;
+        margin-left: 35rem;
         margin-top: -12.5rem;
     }
 
     .Unsatiable .threeD {
         width: 200px;
         margin: 0 auto;
-        margin-left: 44rem;
+        margin-left: 49rem;
         margin-top: -12.5rem;
     }
 
     .Unsatiable .totem {
         width: 200px;
         margin: 0 auto;
-        margin-left: 56rem;
+        margin-left: 64rem;
         margin-top: -11.5rem;
     }
 
     .Unsatiable .stem {
         width: 200px;
         margin: 0 auto;
-        margin-left: 68rem;
+        margin-left: 77rem;
         margin-top: -10.5rem;
     }
 
@@ -313,6 +317,14 @@ h2 {
         width: 200px;
         margin: 0 auto;
     }
+    
+/*
+    .process {
+        width: 200px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    */
 
 
 }
