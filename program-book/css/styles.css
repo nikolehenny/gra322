@@ -253,17 +253,12 @@ h2 {
         margin-top: -18rem;
     }
 
-    .process p {
-        color: rgb(0, 0, 0);
-        width: 64%;
-        font-size: 15pt;
-        margin: 0 auto;
-        padding-bottom: none;
-    }
+    /* better way to align this and add stroke please??*/
 
-    /* better way to align this and add stroke please*/
+.process {
+    padding-top: 2.5rem;
+}
 
-    
     .Unsatiable .wineglass {
         width: 200px;
         margin: 0 auto;
@@ -273,21 +268,21 @@ h2 {
     .Unsatiable .wishbone {
         width: 200px;
         margin: 0 auto;
-        margin-left: 35rem;
+        margin-left: 34rem;
         margin-top: -12.5rem;
     }
 
     .Unsatiable .threeD {
         width: 200px;
         margin: 0 auto;
-        margin-left: 49rem;
+        margin-left: 48rem;
         margin-top: -12.5rem;
     }
 
     .Unsatiable .totem {
         width: 200px;
         margin: 0 auto;
-        margin-left: 64rem;
+        margin-left: 62.5rem;
         margin-top: -11.5rem;
     }
 
@@ -301,30 +296,50 @@ h2 {
     .Unsatiable .blue {
         width: 200px;
         margin: 0 auto;
+        margin-left: 20rem;
+        margin-top: 3.5rem;
     }
 
     .Unsatiable .green {
         width: 200px;
         margin: 0 auto;
+        margin-left: 34rem;
+        margin-top: -11.5rem;
     }
 
     .Unsatiable .pink {
         width: 200px;
         margin: 0 auto;
+        margin-left: 48rem;
+        margin-top: -11.5rem;
     }
 
     .Unsatiable .orange {
         width: 200px;
         margin: 0 auto;
+        margin-left: 62.5rem;
+        margin-top: -11.5rem;
     }
-    
-/*
-    .process {
-        width: 200px;
-        margin: 0 auto;
-        justify-content: space-between;
-    }
-    */
 
+    .process-p {
+        color: rgb(0, 0, 0);
+        width: 60.5%;
+        font-size: 15pt;
+        margin: 0 auto;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .menu-options {
+        margin: 0 auto;
+        color: white;
+        text-align: left; 
+        font-weight: 100;
+        line-height: 3rem;
+        font-size: 15pt;
+        padding-left: 5rem;
+        margin-top: -104rem;
+        text-align: left;
+    }
 
 }
