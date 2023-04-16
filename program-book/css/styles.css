@@ -214,20 +214,12 @@ h2 {
         display: none;
     }
 
-    .all-button {
-        margin: 0 auto;
-        text-decoration: none;
-        /* not working? and how to make it bold when selected?*/
-        font-weight: 100;
-        font-size: 15pt;
-        padding-left: 2.5rem;
-    }
-
     .Unsatiable h1 {
         color: white;
         font-weight: 900;
         font-size: 15pt;
         padding-left: 5rem;
+        padding-top: 3rem;
     }
 
     .Unsatiable h2 {
@@ -240,6 +232,7 @@ h2 {
     .intro p {
         color: white;
         width: 64%;
+        font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
         margin-top: -20rem;
@@ -254,10 +247,10 @@ h2 {
     }
 
     /* better way to align this and add stroke please??*/
-
-.process {
-    padding-top: 2.5rem;
-}
+    .process {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
 
     .Unsatiable .wineglass {
         width: 200px;
@@ -324,6 +317,7 @@ h2 {
     .process-p {
         color: rgb(0, 0, 0);
         width: 60.5%;
+        font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
         padding-top: 2.5rem;
@@ -333,13 +327,20 @@ h2 {
     .menu-options {
         margin: 0 auto;
         color: white;
-        text-align: left; 
+        text-align: left;
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 5rem;
         margin-top: -104rem;
         text-align: left;
+    }
+
+    .all-button {
+        margin: 0 auto;
+        text-decoration: none;
+        list-style-type: none
+        /* not working? and how to make it bold when selected?*/
     }
 
 }
