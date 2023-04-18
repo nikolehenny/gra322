@@ -3,6 +3,11 @@ body {
     /* 55 and ???? */
 }
 
+ul {
+    padding-left: 0;
+}
+
+
 .menu {
     position: absolute;
     right: 2rem;
@@ -44,71 +49,6 @@ body {
     padding-bottom: 21rem;
 }
 
-.Unsatiable .wineglass {
-    width: 130px;
-    padding-left: 2rem;
-    padding-top: 2rem;
-}
-
-.Unsatiable .wishbone {
-    width: 130px;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    margin-top: -8.1rem;
-    margin-left: 7.15rem;
-}
-
-.Unsatiable .threeD {
-    width: 130px;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    margin-top: -8.1rem;
-    margin-left: 14.3rem;
-}
-
-.Unsatiable .totem {
-    width: 130px;
-    padding-left: 2rem;
-    padding-top: 1rem;
-}
-
-.Unsatiable .stem {
-    width: 130px;
-    padding-left: 2rem;
-    margin-top: -6.1rem;
-    margin-left: 7.2rem;
-}
-
-.Unsatiable .blue {
-    width: 130px;
-    padding-left: 2rem;
-    margin-top: -6.1rem;
-    margin-left: 14.3rem;
-}
-
-.Unsatiable .green {
-    width: 130px;
-    padding-left: 2rem;
-    padding-top: 1rem;
-}
-
-.Unsatiable .pink {
-    width: 130px;
-    padding-left: 2rem;
-    padding-top: 1rem;
-    margin-left: 7.2rem;
-    margin-top: -7.1rem;
-
-}
-
-.Unsatiable .orange {
-    width: 130px;
-    padding-left: 2rem;
-    padding-top: 1rem;
-    margin-left: 14.3rem;
-    margin-top: -7.1rem;
-}
-
 .process p {
     color: rgb(0, 0, 0);
     padding: 2rem;
@@ -121,7 +61,13 @@ body {
 }
 
 
-
+.image-grid {
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    max-width: 40%;
+}
 
 
 
@@ -168,11 +114,7 @@ h2 {
     padding-top: 1rem;
 }
 
-.psaid {
-    padding: 2rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-}
+.psaid {}
 
 .app {
     padding: 2rem;
@@ -180,23 +122,11 @@ h2 {
     padding-top: 1rem;
 }
 
-.clothing {
-    padding: 2rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-}
+.clothing {}
 
-.snickerdoodle {
-    padding: 2rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-}
+.snickerdoodle {}
 
-.mlk {
-    padding: 2rem;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
-}
+.mlk {}
 
 /* end of home page images */
 
@@ -252,66 +182,9 @@ h2 {
         padding-bottom: 1rem;
     }
 
-    .Unsatiable .wineglass {
-        width: 200px;
-        margin: 0 auto;
-        margin-left: 20rem;
-    }
-
-    .Unsatiable .wishbone {
-        width: 200px;
-        margin: 0 auto;
-        margin-left: 34rem;
-        margin-top: -12.5rem;
-    }
-
-    .Unsatiable .threeD {
-        width: 200px;
-        margin: 0 auto;
-        margin-left: 48rem;
-        margin-top: -12.5rem;
-    }
-
-    .Unsatiable .totem {
-        width: 200px;
-        margin: 0 auto;
-        margin-left: 62.5rem;
-        margin-top: -11.5rem;
-    }
-
-    .Unsatiable .stem {
-        width: 200px;
-        margin: 0 auto;
-        margin-left: 77rem;
-        margin-top: -10.5rem;
-    }
-
-    .Unsatiable .blue {
-        width: 200px;
-        margin: 0 auto;
-        margin-left: 20rem;
-        margin-top: 3.5rem;
-    }
-
-    .Unsatiable .green {
-        width: 200px;
-        margin: 0 auto;
-        margin-left: 34rem;
-        margin-top: -11.5rem;
-    }
-
-    .Unsatiable .pink {
-        width: 200px;
-        margin: 0 auto;
-        margin-left: 48rem;
-        margin-top: -11.5rem;
-    }
-
-    .Unsatiable .orange {
-        width: 200px;
-        margin: 0 auto;
-        margin-left: 62.5rem;
-        margin-top: -11.5rem;
+    .image-grid {
+        padding-top: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .process-p {
@@ -326,21 +199,25 @@ h2 {
 
     .menu-options {
         margin: 0 auto;
-        color: white;
-        text-align: left;
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 5rem;
-        margin-top: -104rem;
-        text-align: left;
+        margin-top: -125rem; /* this keeps changing if I edit the bottom */
     }
 
-    .all-button {
-        margin: 0 auto;
+    nav ul { /* gets rid of bullet point */
+        list-style: none;
+    }
+
+    nav a { /* links */
+        text-decoration: underline;
+        color: red;
+    }
+
+    .second-link {
+        font-weight: bold;
         text-decoration: none;
-        list-style-type: none
-        /* not working? and how to make it bold when selected?*/
     }
 
 }
