@@ -101,10 +101,11 @@ h2 {
     padding-top: 2rem;
 }
 
+/* not letting me hide it just for mobile??
 .menu-options {
    display: none;
 }
-
+*/
 
 /* end of home page images */
 
@@ -165,6 +166,7 @@ h2 {
 
     .image-grid {
         grid-template-columns: 1fr 1fr 1fr;
+        width: 40%
     }
 
     .process-p {
