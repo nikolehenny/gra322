@@ -185,7 +185,7 @@ h2 {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 5rem;
-        margin-top: -125rem; /* this keeps changing if I edit the bottom */
+        margin-top: -127rem; /* this keeps changing if I edit the bottom */
     }
 
     nav ul { /* gets rid of bullet point */
