@@ -8,6 +8,7 @@ ul {
 }
 
 .menu {
+    /* this is for the hamburger menu on mobile */
     position: absolute;
     right: 2rem;
     top: 3.6rem;
@@ -31,7 +32,8 @@ ul {
     display: none;
 }
 
-.Unsatiable h1 { /* my name*/
+.Unsatiable h1 {
+    /* my name*/
     color: rgb(255, 255, 255);
     font-size: 11pt;
     font-weight: 900;
@@ -43,7 +45,8 @@ ul {
     font-weight: 100;
 }
 
-.intro p { /* paragraph under first image */
+.intro p {
+    /* paragraph under first image */
     color: rgb(255, 255, 255);
     padding-left: 2rem;
     padding-right: 2rem;
@@ -52,7 +55,8 @@ ul {
     font-size: 11pt;
 }
 
-.process-p { /* paragraph under process*/
+.process-p {
+    /* paragraph under process*/
     color: rgb(0, 0, 0);
     padding: 2rem;
     font-weight: 100;
@@ -93,19 +97,6 @@ h2 {
     font-weight: 65;
     font-weight: 100;
 }
-
-/* home page images */
-.unsatiable-image {
-    padding: 2rem;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-}
-
-/* not letting me hide it just for mobile??
-.menu-options {
-   display: none;
-}
-*/
 
 /* end of home page images */
 
@@ -179,26 +170,107 @@ h2 {
         padding-bottom: 2.5rem;
     }
 
-    .menu-options {
+    .Unsatiable .menu-options {
         margin: 0 auto;
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 5rem;
-        margin-top: -127rem; /* this keeps changing if I edit the bottom */
+        margin-top: -127rem;
+        /* this keeps changing if I edit the bottom */
     }
 
-    nav ul { /* gets rid of bullet point */
+    nav ul {
+        /* gets rid of bullet point */
         list-style: none;
     }
 
-    nav a { /* links */
+    nav a {
+        /* links */
         text-decoration: underline;
-        color: red;
+        color: rgb(255, 0, 0);
     }
 
-    .second-link {
+    .Unsatiable .second-link {
         font-weight: bold;
         text-decoration: none;
     }
+
+
+
+
+
+
+    .main .first-link {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .main h1 {
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        font-size: 15pt;
+        padding-left: 5rem;
+        padding-top: 3rem;
+    }
+
+    .main h2 {
+        color: rgb(0, 0, 0);
+        font-weight: 100;
+        font-size: 15pt;
+        padding-left: 5rem;
+    }
+
+    .main .menu-options {
+        margin: 0 auto;
+        font-weight: 100;
+        line-height: 3rem;
+        font-size: 15pt;
+        padding-left: 5rem;
+        margin-top: 4.2rem;
+    }
+
+    .main .main-images {
+        columns: 1;
+        padding-left: 22.2rem;
+        padding-right: 22.2rem;
+        margin-top: -26rem;
+    }
+
+    .main .unsatiable-image {
+        padding-bottom: 3rem;
+    }
+
+    .main .looza {
+        padding-bottom: 3rem;
+    }
+
+    .main .preservatives {
+        padding-bottom: 3rem;
+    }
+
+    .main .psaid {
+        padding-bottom: 3rem;
+    }
+
+    .main .app {
+        padding-bottom: 3rem;
+    }
+
+    .main .clothing {
+        padding-bottom: 3rem;
+    }
+
+    .main .snickerdoodle {
+        padding-bottom: 3rem;
+    }
+
+    .main .mlk {
+        padding-bottom: 3rem;
+    }
+
+   
+
+
+
 }
