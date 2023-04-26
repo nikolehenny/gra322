@@ -455,8 +455,10 @@ body {
 .logo-bottom {
     width: 160px;
     margin: 0 auto;
-    rotate: 5deg;
-    margin-top: -13rem;
+    rotate: 0deg;
+    padding-top: 1.5rem;
+    padding-bottom: 3.5rem;
+    padding-left: .5rem;
 }
 
 .flag {
@@ -530,9 +532,7 @@ body {
     padding-right: .5rem;
 }
 
-@media (min-width: 600px) {
-
-}
+@media (min-width: 600px) {}
 
 /* everything under this is for the DESKTOP version */
 /* min width if mobile coded first, max width if desktop coded first */
@@ -949,87 +949,89 @@ body {
 
 
 
-.bottom {
-    background-color: #FFFDF2;
-}
+    .bottom {
+        background-color: #FFFDF2;
+    }
 
-.logo-bottom {
-    width: 260px;
-    margin: 0 auto;
-    rotate: 5deg;
-    margin-top: -13rem;
-}
+    .logo-bottom {
+        width: 260px;
+        rotate: 0deg;
+        margin: 0 auto;
+        padding-bottom: 5rem;
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
 
-.flag {
-    margin: 0 auto;
-    width: 60px;
-    margin-top: -3rem;
-}
+    .flag {
+        margin: 0 auto;
+        width: 60px;
+        margin-top: -3rem;
+    }
 
-.bottom p {
-    /* copyright */
-    color: rgb(0, 0, 0);
-    width: 1000px;
-    font-size: 15px;
-    padding: 1rem;
-    padding-top: 3rem;
-    margin: 0 auto;
-    text-align: center;
-}
+    .bottom p {
+        /* copyright */
+        color: rgb(0, 0, 0);
+        width: 1000px;
+        font-size: 15px;
+        padding: 1rem;
+        padding-top: 3rem;
+        margin: 0 auto;
+        text-align: center;
+    }
 
-.bottom h1 {
-    /* HISTORY */
-    color: black;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-    margin-left: -15rem;
-    margin-top: -5rem;
-}
+    .bottom h1 {
+        /* HISTORY */
+        color: black;
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: -15rem;
+        margin-top: -5rem;
+    }
 
-.bottom h2 {
-    /* CONTACT */
-    color: black;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-    margin-left: -15rem;
-    margin-top: 1.3em;
-    padding-bottom: 3.5rem;
-}
+    .bottom h2 {
+        /* CONTACT */
+        color: black;
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: -15rem;
+        margin-top: 1.3em;
+        padding-bottom: 3.5rem;
+    }
 
-.bottom h3 {
-    /* CAREERS */
-    color: black;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-    margin-left: 15rem;
-    margin-top: -8.5rem;
-    padding-bottom: .6rem;
-}
+    .bottom h3 {
+        /* CAREERS */
+        color: black;
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 15rem;
+        margin-top: -8.5rem;
+        padding-bottom: .6rem;
+    }
 
-.bottom h4 {
-    /* ACCESSIBILITY */
-    color: black;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-    margin-left: 18.5rem;
-    margin-top: 1rem;
-}
+    .bottom h4 {
+        /* ACCESSIBILITY */
+        color: black;
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 18.5rem;
+        margin-top: 1rem;
+    }
 
 
-.fa-instagram {
-    color: black;
-    margin: 0 auto;
-    margin-left: 53.3rem;
-    padding: .5rem;
-}
+    .fa-instagram {
+        color: black;
+        margin: 0 auto;
+        margin-left: 53.3rem;
+        padding: .5rem;
+    }
 
-.fa-twitter {
-    padding-right: .5rem;
-}
+    .fa-twitter {
+        padding-right: .5rem;
+    }
 
 
 
