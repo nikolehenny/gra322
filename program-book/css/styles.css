@@ -133,7 +133,8 @@ h2 {
         padding-left: 5rem;
     }
 
-    .intro p { /* FOR UNSATIABLE */
+    .intro p {
+        /* FOR UNSATIABLE */
         color: rgb(255, 255, 255);
         width: 64%;
         font-weight: 100;
@@ -341,7 +342,8 @@ h2 {
         /* this keeps changing if I edit the bottom */
     }
 
-    .looza .intro p { /* FOR LOOZA */
+    .looza .intro p {
+        /* FOR LOOZA */
         color: rgb(255, 255, 255);
         width: 64%;
         font-weight: 100;
@@ -360,10 +362,9 @@ h2 {
 
 
 
-    .global .intro{
+    .global .intro {
         background-color: black;
     }
-
 
     .global h1 {
         color: white;
@@ -380,17 +381,184 @@ h2 {
         padding-left: 5rem;
     }
 
-    .global .intro p { /* FOR UNSATIABLE */
+    .global .intro p {
+        /* FOR UNSATIABLE */
         color: rgb(255, 255, 255);
         width: 64%;
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
         padding: none;
-        margin-top: -19rem;
+        margin-top: 4rem;
     }
 
     .global .menu-options {
+        margin: 0 auto;
+        font-weight: 100;
+        line-height: 3rem;
+        font-size: 15pt;
+        padding-left: 5rem;
+        margin-top: -130rem;
+        /* this keeps changing if I edit the bottom */
+    }
+
+    .global .fourth-link {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+    .psaid .intro {
+        background-color: black;
+    }
+
+    .psaid h1 {
+        color: white;
+        font-weight: 900;
+        font-size: 15pt;
+        padding-left: 5rem;
+        padding-top: 3rem;
+    }
+
+    .psaid h2 {
+        color: white;
+        font-weight: 100;
+        font-size: 15pt;
+        padding-left: 5rem;
+    }
+
+    .psaid .intro p {
+        /* FOR UNSATIABLE */
+        color: rgb(255, 255, 255);
+        width: 64%;
+        font-weight: 100;
+        font-size: 15pt;
+        margin: 0 auto;
+        padding: none;
+        margin-top: 4rem;
+    }
+
+    .psaid .menu-options {
+        margin: 0 auto;
+        font-weight: 100;
+        line-height: 3rem;
+        font-size: 15pt;
+        padding-left: 5rem;
+        margin-top: -130rem;
+        /* this keeps changing if I edit the bottom */
+    }
+
+    .psaid .fifth-link {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .psaid-out-link {
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        font-size: 15pt;
+        margin: 0 auto;
+        margin-left: 19rem;
+    }
+
+
+
+
+
+    .app .intro {
+        background-color: black;
+    }
+
+    .app h1 {
+        color: white;
+        font-weight: 900;
+        font-size: 15pt;
+        padding-left: 5rem;
+        padding-top: 3rem;
+    }
+
+    .app h2 {
+        color: white;
+        font-weight: 100;
+        font-size: 15pt;
+        padding-left: 5rem;
+    }
+
+    .app .intro p {
+        /* FOR UNSATIABLE */
+        color: rgb(255, 255, 255);
+        width: 64%;
+        font-weight: 100;
+        font-size: 15pt;
+        margin: 0 auto;
+        padding: none;
+        margin-top: 4rem;
+    }
+
+    .app .menu-options {
+        margin: 0 auto;
+        font-weight: 100;
+        line-height: 3rem;
+        font-size: 15pt;
+        padding-left: 5rem;
+        margin-top: -130rem;
+        /* this keeps changing if I edit the bottom */
+    }
+
+    .app .sixth-link {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .app-image {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5.2rem;
+    }
+
+
+
+
+
+
+
+
+    .clothes .intro {
+        background-color: black;
+    }
+
+    .clothes h1 {
+        color: white;
+        font-weight: 900;
+        font-size: 15pt;
+        padding-left: 5rem;
+        padding-top: 3rem;
+    }
+
+    .clothes h2 {
+        color: white;
+        font-weight: 100;
+        font-size: 15pt;
+        padding-left: 5rem;
+    }
+
+    .clothes .intro p {
+        /* FOR UNSATIABLE */
+        color: rgb(255, 255, 255);
+        width: 64%;
+        font-weight: 100;
+        font-size: 15pt;
+        margin: 0 auto;
+        padding: none;
+        margin-top: 4rem;
+    }
+
+    .clothes .menu-options {
         margin: 0 auto;
         font-weight: 100;
         line-height: 3rem;
@@ -400,10 +568,136 @@ h2 {
         /* this keeps changing if I edit the bottom */
     }
 
-    .global .fourth-link {
+    .clothes .seventh-link {
         font-weight: bold;
         text-decoration: none;
     }
+
+    .clothes-image {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5.2rem;
+    }
+
+
+
+
+
+
+    .recipe .intro {
+        background-color: black;
+    }
+
+    .recipe h1 {
+        color: white;
+        font-weight: 900;
+        font-size: 15pt;
+        padding-left: 5rem;
+        padding-top: 3rem;
+    }
+
+    .recipe h2 {
+        color: white;
+        font-weight: 100;
+        font-size: 15pt;
+        padding-left: 5rem;
+    }
+
+    .recipe .intro p {
+        /* FOR UNSATIABLE */
+        color: rgb(255, 255, 255);
+        width: 64%;
+        font-weight: 100;
+        font-size: 15pt;
+        margin: 0 auto;
+        padding: none;
+        margin-top: 4rem;
+    }
+
+    .recipe .menu-options {
+        margin: 0 auto;
+        font-weight: 100;
+        line-height: 3rem;
+        font-size: 15pt;
+        padding-left: 5rem;
+        margin-top: -120rem;
+        /* this keeps changing if I edit the bottom */
+    }
+
+    .recipe .eighth-link {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .recipe-image {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5.2rem;
+    }
+
+
+
+
+
+
+
+    .mlk .intro {
+        background-color: black;
+    }
+
+    .mlk h1 {
+        color: white;
+        font-weight: 900;
+        font-size: 15pt;
+        padding-left: 5rem;
+        padding-top: 3rem;
+    }
+
+    .mlk h2 {
+        color: white;
+        font-weight: 100;
+        font-size: 15pt;
+        padding-left: 5rem;
+    }
+
+    .mlk .intro p {
+        /* FOR UNSATIABLE */
+        color: rgb(255, 255, 255);
+        width: 64%;
+        font-weight: 100;
+        font-size: 15pt;
+        margin: 0 auto;
+        padding: none;
+        margin-top: 4rem;
+    }
+
+    .mlk .menu-options {
+        margin: 0 auto;
+        font-weight: 100;
+        line-height: 3rem;
+        font-size: 15pt;
+        padding-left: 5rem;
+        margin-top: -130rem;
+        /* this keeps changing if I edit the bottom */
+    }
+
+    .mlk .ninth-link {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .mlk-image {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5.2rem;
+    }
+
+
+
+
 
 
 
