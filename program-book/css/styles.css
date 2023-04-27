@@ -3,15 +3,21 @@ body {
     /* 55 and ???? */
 }
 
-ul {
-    padding-left: 0;
-}
 
+/*MOBILE VERSIONS!! \/ */
 .menu {
     /* this is for the hamburger menu on mobile */
     right: 2rem;
-    top: 3.6rem;
+    top: 3.5rem;
+    position: absolute;
     /* padding is what increases clickable area, needs to be 44px */
+}
+
+.Unsatiable ul {
+    /*visible list as opposed to menu on mobile*/
+    padding-left: 2;
+    list-style: none;
+    /* display: none; */
 }
 
 .Unsatiable .menu {
@@ -23,50 +29,41 @@ ul {
     background-color: black;
 }
 
-.Unsatiable .unsatiable-image {
-    padding: 2rem;
-}
-
-.unsat-vid {
-    display: none;
-}
-
 .Unsatiable h1 {
-    /* my name*/
-    color: rgb(255, 255, 255);
-    font-size: 11pt;
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    padding-top: 2rem;
     font-weight: 900;
+    color: white;
 }
 
 .Unsatiable h2 {
     color: white;
-    font-size: 11pt;
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
     font-weight: 100;
 }
 
-.intro p {
+.Unsatiable .unsatiable-image {
+    display: none;
+}
+
+.unsat-vid {
+    margin: 0 auto;
+    width: 82%;
+}
+
+.Unsatiable .intro p {
     /* paragraph under first image */
     margin: 0 auto;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-bottom: 21rem;
-    margin-top: 4rem;
+    padding-bottom: 20rem;
     font-weight: 100;
     font-size: 11pt;
-
-}
-
-.process-p {
-    /* paragraph under process*/
-    color: rgb(0, 0, 0);
-    padding: 2rem;
-    font-weight: 100;
-    font-size: 11pt;
-}
-
-/* trying to group all the individual process images into one clump so I can center it */
-.process {
-    margin: 0 auto;
+    color: white;
 }
 
 .image-grid {
@@ -78,13 +75,18 @@ ul {
     max-width: 89%;
 }
 
-.nav-active {
-    color: red;
+
+
+
+
+.main ul {
+    /*visible list as opposed to menu on mobile*/
+    padding-left: 2;
+    list-style: none;
+    /* display: none; */
 }
 
-/* this is all for home page????*/
-
-h1 {
+.main h1 {
     font-size: 16px;
     padding-left: 2rem;
     font-weight: 65;
@@ -92,14 +94,106 @@ h1 {
     font-weight: 900;
 }
 
-h2 {
+.main h2 {
     font-size: 16px;
     padding-left: 2rem;
     font-weight: 65;
     font-weight: 100;
 }
 
-/* end of home page images */
+.main .unsatiable-image {
+    padding: 2rem;
+}
+
+.main .looza {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.main .preservatives {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.main .psaid {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.main .app {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.main .clothing {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.main .snickerdoodle {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.main .mlk {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+
+
+
+.looza .menu {
+    color: rgb(255, 255, 255);
+}
+
+.looza .intro {
+    /* doing something specific to the different projects*/
+    background-color: black;
+}
+
+.looza h1 {
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    padding-top: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+.looza h2 {
+    color: white;
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    font-weight: 100;
+}
+
+.looza-vid {
+    margin: 0 auto;
+    width: 82%;
+    padding: 2rem; /*not working???*/
+}
+
+.looza .intro p {
+    /* paragraph under first image */
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 29rem;
+    font-weight: 100;
+    font-size: 11pt;
+    color: white;
+}
 
 
 
@@ -133,8 +227,7 @@ h2 {
         padding-left: 5rem;
     }
 
-    .intro p {
-        /* FOR UNSATIABLE */
+    .Unsatiable .intro p {
         color: rgb(255, 255, 255);
         width: 64%;
         font-weight: 100;
@@ -177,7 +270,7 @@ h2 {
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
-        padding-left: 5rem;
+        padding-left: 2.8rem;
         margin-top: -122rem;
         /* this keeps changing if I edit the bottom */
     }
@@ -235,15 +328,15 @@ h2 {
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
-        padding-left: 5rem;
-        margin-top: 4.2rem;
+        padding-left: 2.8rem;
+        padding-top: 5rem;
     }
 
     .main .main-images {
         columns: 1;
         padding-left: 22.2rem;
         padding-right: 22.2rem;
-        margin-top: -26rem;
+        margin-top: -28.5rem;
     }
 
     .main .unsatiable-image {
@@ -321,24 +414,13 @@ h2 {
         width: 40%
     }
 
-    .process-p {
-        /*para under process*/
-        color: rgb(0, 0, 0);
-        width: 64%;
-        font-weight: 100;
-        font-size: 15pt;
-        margin: 0 auto;
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
-    }
-
     .looza .menu-options {
         margin: 0 auto;
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
-        padding-left: 5rem;
-        margin-top: -102rem;
+        padding-left: 2.8rem;
+        margin-top: -111rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -349,7 +431,6 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        padding: none;
         margin-top: -8rem;
     }
 
@@ -388,8 +469,10 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        padding: none;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
         margin-top: 2rem;
+
     }
 
     .global .menu-options {
@@ -397,8 +480,8 @@ h2 {
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
-        padding-left: 5rem;
-        margin-top: -110rem;
+        padding-left: 2.8rem;
+        margin-top: -92rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -419,7 +502,7 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        margin-left: 11.2rem;
+        margin-left: 10rem;
         padding-top: 2rem;
     }
 
@@ -454,8 +537,9 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        padding: none;
-        margin-top: 1.5rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
     }
 
     .psaid .menu-options {
@@ -463,8 +547,8 @@ h2 {
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
-        padding-left: 5rem;
-        margin-top: -111.5rem;
+        padding-left: 2.8rem;
+        margin-top: -94rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -478,7 +562,7 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        margin-left: 11.2rem;
+        margin-left: 10rem;
         padding-top: 2rem;
     }
 
@@ -507,12 +591,13 @@ h2 {
     .app .intro p {
         /* FOR UNSATIABLE */
         color: rgb(255, 255, 255);
-        width: 64%;
+        width: 63%;
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        padding: none;
         margin-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1.8rem;
     }
 
     .app .menu-options {
@@ -520,8 +605,8 @@ h2 {
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
-        padding-left: 5rem;
-        margin-top: -112rem;
+        padding-left: 2.8rem;
+        margin-top: -96rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -542,12 +627,9 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        margin-left: 11.2rem;
+        margin-left: 10.1rem;
         padding-top: 2rem;
     }
-
-
-
 
 
 
@@ -579,7 +661,8 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        padding: none;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
         margin-top: 2rem;
     }
 
@@ -588,8 +671,8 @@ h2 {
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
-        padding-left: 5rem;
-        margin-top: -122rem;
+        padding-left: 2.8rem;
+        margin-top: -104rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -610,7 +693,7 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        margin-left: 11.2rem;
+        margin-left: 10rem;
         padding-top: 2rem;
     }
 
@@ -644,8 +727,9 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        padding: none;
+        padding-left: 2rem;
         margin-top: 2rem;
+        padding-bottom: 3rem;
     }
 
     .recipe .menu-options {
@@ -653,8 +737,8 @@ h2 {
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
-        padding-left: 5rem;
-        margin-top: -118rem;
+        padding-left: 2.8rem;
+        margin-top: -67rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -675,7 +759,7 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        margin-left: 11.2rem;
+        margin-left: 10rem;
         padding-top: 2rem;
     }
 
@@ -706,13 +790,14 @@ h2 {
 
     .mlk .intro p {
         /* FOR UNSATIABLE */
+        margin: 0 auto;
         color: rgb(255, 255, 255);
         width: 64%;
         font-weight: 100;
         font-size: 15pt;
-        margin: 0 auto;
-        padding: none;
+        padding-left: 2rem;
         margin-top: 2rem;
+        padding-bottom: 3rem;
     }
 
     .mlk .menu-options {
@@ -720,8 +805,8 @@ h2 {
         font-weight: 100;
         line-height: 3rem;
         font-size: 15pt;
-        padding-left: 5rem;
-        margin-top: -114rem;
+        padding-left: 2.8rem;
+        margin-top: -97rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -742,7 +827,7 @@ h2 {
         font-weight: 100;
         font-size: 15pt;
         margin: 0 auto;
-        margin-left: 11.2rem;
+        margin-left: 10rem;
         padding-top: 2rem;
     }
 
