@@ -72,7 +72,7 @@ body {
     gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 2rem;
-    max-width: 89%;
+    max-width: 85%;
 }
 
 
@@ -181,7 +181,7 @@ body {
 .looza-vid {
     margin: 0 auto;
     width: 82%;
-    padding: 2rem; /*not working???*/
+    margin-top: 2rem;
 }
 
 .looza .intro p {
@@ -193,9 +193,385 @@ body {
     font-weight: 100;
     font-size: 11pt;
     color: white;
+    margin-top: 2rem;
 }
 
 
+
+
+
+.global .menu {
+    color: rgb(255, 255, 255);
+}
+
+.global .intro {
+    /* doing something specific to the different projects*/
+    background-color: black;
+}
+
+.global h1 {
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    padding-top: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+.global h2 {
+    color: white;
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    font-weight: 100;
+}
+
+.global-image {
+    margin: 0 auto;
+    width: 82%;
+    margin-top: 2rem;
+}
+
+.global .intro p {
+    /* paragraph under first image */
+    margin: 0 auto;
+    padding-left: 2.2rem;
+    padding-right: 2rem;
+    padding-bottom: 29rem;
+    font-weight: 100;
+    font-size: 11pt;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.global ul {
+    /*visible list as opposed to menu on mobile*/
+    list-style: none;
+    /* display: none; */
+}
+
+.global-out-link {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-left: 0rem;
+    padding-top: 2rem;
+}
+
+
+
+
+.psaid .menu {
+    color: rgb(255, 255, 255);
+}
+
+.psaid .intro {
+    /* doing something specific to the different projects*/
+    background-color: black;
+}
+
+.psaid h1 {
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    padding-top: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+.psaid h2 {
+    color: white;
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    font-weight: 100;
+}
+
+.psaid-image {
+    margin: 0 auto;
+    width: 82%;
+    margin-top: 2rem;
+}
+
+.psaid .intro p {
+    /* paragraph under first image */
+    margin: 0 auto;
+    padding-left: 2.2rem;
+    padding-right: 2rem;
+    padding-bottom: 29rem;
+    font-weight: 100;
+    font-size: 11pt;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.psaid ul {
+    /*visible list as opposed to menu on mobile*/
+    list-style: none;
+    /* display: none; */
+}
+
+.psaid-out-link {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-left: 0rem;
+    padding-top: 2rem;
+}
+
+
+
+
+
+.app .menu {
+    color: rgb(255, 255, 255);
+}
+
+.app .intro {
+    /* doing something specific to the different projects*/
+    background-color: black;
+}
+
+.app h1 {
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    padding-top: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+.app h2 {
+    color: white;
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    font-weight: 100;
+}
+
+.app-image {
+    margin: 0 auto;
+    width: 82%;
+    margin-top: 2rem;
+}
+
+.app .intro p {
+    /* paragraph under first image */
+    margin: 0 auto;
+    padding-left: 2.2rem;
+    padding-right: 2rem;
+    padding-bottom: 29rem;
+    font-weight: 100;
+    font-size: 11pt;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.app ul {
+    /*visible list as opposed to menu on mobile*/
+    list-style: none;
+    /* display: none; */
+}
+
+.app-out-link {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-left: 0rem;
+    padding-top: 2rem;
+}
+
+
+
+
+
+
+
+.clothes .menu {
+    color: rgb(255, 255, 255);
+}
+
+.clothes .intro {
+    /* doing something specific to the different projects*/
+    background-color: black;
+}
+
+.clothes h1 {
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    padding-top: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+.clothes h2 {
+    color: white;
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    font-weight: 100;
+}
+
+.clothes-image {
+    margin: 0 auto;
+    width: 82%;
+    margin-top: 2rem;
+}
+
+.clothes .intro p {
+    /* paragraph under first image */
+    margin: 0 auto;
+    padding-left: 2.2rem;
+    padding-right: 2rem;
+    padding-bottom: 29rem;
+    font-weight: 100;
+    font-size: 11pt;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.clothes ul {
+    /*visible list as opposed to menu on mobile*/
+    list-style: none;
+    /* display: none; */
+}
+
+.clothes-out-link {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-left: 0rem;
+    padding-top: 2rem;
+}
+
+
+
+
+.recipe .menu {
+    color: rgb(255, 255, 255);
+}
+
+.recipe .intro {
+    /* doing something specific to the different projects*/
+    background-color: black;
+}
+
+.recipe h1 {
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    padding-top: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+.recipe h2 {
+    color: white;
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    font-weight: 100;
+}
+
+.recipe-image {
+    margin: 0 auto;
+    width: 82%;
+    margin-top: 2rem;
+}
+
+.recipe .intro p {
+    /* paragraph under first image */
+    margin: 0 auto;
+    padding-left: 2.2rem;
+    padding-right: 2rem;
+    padding-bottom: 29rem;
+    font-weight: 100;
+    font-size: 11pt;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.recipe ul {
+    /*visible list as opposed to menu on mobile*/
+    list-style: none;
+    /* display: none; */
+}
+
+.recipe-out-link {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-left: 0rem;
+    padding-top: 2rem;
+}
+
+
+
+
+.mlk .menu {
+    color: rgb(255, 255, 255);
+}
+
+.mlk .intro {
+    /* doing something specific to the different projects*/
+    background-color: black;
+}
+
+.mlk h1 {
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    padding-top: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+.mlk h2 {
+    color: white;
+    font-size: 16px;
+    padding-left: 2rem;
+    font-weight: 65;
+    font-weight: 100;
+}
+
+.mlk-image {
+    margin: 0 auto;
+    width: 82%;
+    margin-top: 2rem;
+}
+
+.mlk .intro p {
+    /* paragraph under first image */
+    margin: 0 auto;
+    padding-left: 2.2rem;
+    padding-right: 2rem;
+    padding-bottom: 29rem;
+    font-weight: 100;
+    font-size: 11pt;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.mlk ul {
+    /*visible list as opposed to menu on mobile*/
+    list-style: none;
+    /* display: none; */
+}
+
+.mlk-out-link {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-left: 0rem;
+    padding-top: 2rem;
+}
 
 
 
@@ -564,6 +940,13 @@ body {
         margin: 0 auto;
         margin-left: 10rem;
         padding-top: 2rem;
+    }
+
+    .psaid-image {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5.2rem;  
     }
 
 
