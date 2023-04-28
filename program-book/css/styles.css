@@ -7,17 +7,24 @@ body {
 /*MOBILE VERSIONS!! \/ */
 .menu {
     /* this is for the hamburger menu on mobile */
-    right: 2rem;
-    top: 3.5rem;
+    right: 1.3rem;
+    top: 2.8rem;
     position: absolute;
+    padding: 14px;
     /* padding is what increases clickable area, needs to be 44px */
 }
 
 .Unsatiable ul {
     /*visible list as opposed to menu on mobile*/
-    padding-left: 2;
+    margin: 0 auto;
+    margin-left: -.5rem;
+    padding-top: 1.3rem;
     list-style: none;
-    /* display: none; */
+}
+
+.Unsatiable nav {
+    /* makes it so options are hidden in menu by default!! yay!!*/
+    display: none;
 }
 
 .Unsatiable .menu {
@@ -53,6 +60,7 @@ body {
 .unsat-vid {
     margin: 0 auto;
     width: 82%;
+    margin-top: -1.4rem;
 }
 
 .Unsatiable .intro p {
@@ -72,6 +80,7 @@ body {
     gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 2rem;
+    padding-bottom: 2rem;
     max-width: 85%;
 }
 
@@ -81,9 +90,16 @@ body {
 
 .main ul {
     /*visible list as opposed to menu on mobile*/
-    padding-left: 2;
-    list-style: none;
     /* display: none; */
+    margin: 0 auto;
+    margin-left: -.5rem;
+    padding-top: 1.3rem;
+    list-style: none;
+}
+
+.main nav {
+    /* makes it so options are hidden in menu by default!! yay!!*/
+    display: none;
 }
 
 .main h1 {
@@ -161,6 +177,19 @@ body {
     background-color: black;
 }
 
+.looza ul {
+    /*visible list as opposed to menu on mobile*/
+    margin: 0 auto;
+    margin-left: -.5rem;
+    padding-top: 1.3rem;
+    list-style: none;
+}
+
+.looza nav {
+    /* makes it so options are hidden in menu by default!! yay!!*/
+    display: none;
+}
+
 .looza h1 {
     font-size: 16px;
     padding-left: 2rem;
@@ -181,7 +210,7 @@ body {
 .looza-vid {
     margin: 0 auto;
     width: 82%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .looza .intro p {
@@ -209,6 +238,20 @@ body {
     background-color: black;
 }
 
+.global ul {
+    /*visible list as opposed to menu on mobile*/
+    margin: 0 auto;
+    margin-left: -.5rem;
+    padding-top: 1.3rem;
+    list-style: none;
+}
+
+.global nav {
+    /* makes it so options are hidden in menu by default!! yay!!*/
+    display: none;
+}
+
+
 .global h1 {
     font-size: 16px;
     padding-left: 2rem;
@@ -229,7 +272,7 @@ body {
 .global-image {
     margin: 0 auto;
     width: 82%;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .global .intro p {
@@ -237,17 +280,11 @@ body {
     margin: 0 auto;
     padding-left: 2.2rem;
     padding-right: 2rem;
-    padding-bottom: 29rem;
+    padding-bottom: 23rem;
     font-weight: 100;
     font-size: 11pt;
     color: white;
     padding-top: 1.5rem;
-}
-
-.global ul {
-    /*visible list as opposed to menu on mobile*/
-    list-style: none;
-    /* display: none; */
 }
 
 .global-out-link {
@@ -255,7 +292,7 @@ body {
     font-weight: 100;
     font-size: 16px;
     margin: 0 auto;
-    margin-left: 0rem;
+    margin-left: 0.1rem;
     padding-top: 2rem;
 }
 
@@ -269,6 +306,19 @@ body {
 .psaid .intro {
     /* doing something specific to the different projects*/
     background-color: black;
+}
+
+.psaid ul {
+    /*visible list as opposed to menu on mobile*/
+    margin: 0 auto;
+    margin-left: -.5rem;
+    padding-top: 1.3rem;
+    list-style: none;
+}
+
+.psaid nav {
+    /* makes it so options are hidden in menu by default!! yay!!*/
+    display: none;
 }
 
 .psaid h1 {
@@ -291,7 +341,7 @@ body {
 .psaid-image {
     margin: 0 auto;
     width: 82%;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .psaid .intro p {
@@ -304,12 +354,6 @@ body {
     font-size: 11pt;
     color: white;
     padding-top: 1.5rem;
-}
-
-.psaid ul {
-    /*visible list as opposed to menu on mobile*/
-    list-style: none;
-    /* display: none; */
 }
 
 .psaid-out-link {
@@ -332,6 +376,19 @@ body {
 .app .intro {
     /* doing something specific to the different projects*/
     background-color: black;
+}
+
+.app ul {
+    /*visible list as opposed to menu on mobile*/
+    margin: 0 auto;
+    margin-left: -.5rem;
+    padding-top: 1.3rem;
+    list-style: none;
+}
+
+.app nav {
+    /* makes it so options are hidden in menu by default!! yay!!*/
+    display: none;
 }
 
 .app h1 {
@@ -394,6 +451,19 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.clothes ul {
+    /*visible list as opposed to menu on mobile*/
+    margin: 0 auto;
+    margin-left: -.5rem;
+    padding-top: 1.3rem;
+    list-style: none;
+}
+
+.clothes nav {
+    /* makes it so options are hidden in menu by default!! yay!!*/
+    display: none;
+}
+
 .clothes .intro {
     /* doing something specific to the different projects*/
     background-color: black;
@@ -434,12 +504,6 @@ body {
     padding-top: 1.5rem;
 }
 
-.clothes ul {
-    /*visible list as opposed to menu on mobile*/
-    list-style: none;
-    /* display: none; */
-}
-
 .clothes-out-link {
     color: rgb(255, 255, 255);
     font-weight: 100;
@@ -459,6 +523,19 @@ body {
 .recipe .intro {
     /* doing something specific to the different projects*/
     background-color: black;
+}
+
+.recipe ul {
+    /*visible list as opposed to menu on mobile*/
+    margin: 0 auto;
+    margin-left: -.5rem;
+    padding-top: 1.3rem;
+    list-style: none;
+}
+
+.recipe nav {
+    /* makes it so options are hidden in menu by default!! yay!!*/
+    display: none;
 }
 
 .recipe h1 {
@@ -496,12 +573,6 @@ body {
     padding-top: 1.5rem;
 }
 
-.recipe ul {
-    /*visible list as opposed to menu on mobile*/
-    list-style: none;
-    /* display: none; */
-}
-
 .recipe-out-link {
     color: rgb(255, 255, 255);
     font-weight: 100;
@@ -521,6 +592,19 @@ body {
 .mlk .intro {
     /* doing something specific to the different projects*/
     background-color: black;
+}
+
+.mlk ul {
+    /*visible list as opposed to menu on mobile*/
+    margin: 0 auto;
+    margin-left: -.5rem;
+    padding-top: 1.3rem;
+    list-style: none;
+}
+
+.mlk nav {
+    /* makes it so options are hidden in menu by default!! yay!!*/
+    display: none;
 }
 
 .mlk h1 {
@@ -556,12 +640,6 @@ body {
     font-size: 11pt;
     color: white;
     padding-top: 1.5rem;
-}
-
-.mlk ul {
-    /*visible list as opposed to menu on mobile*/
-    list-style: none;
-    /* display: none; */
 }
 
 .mlk-out-link {
@@ -653,18 +731,22 @@ body {
 
     nav ul {
         /* gets rid of bullet point */
+        display: block !important;
         list-style: none;
     }
 
     nav a {
         /*univeral default is that nav is white*/
+        display: block !important;
         text-decoration: underline;
         color: rgb(255, 255, 255);
+
     }
 
     .main nav a {
         /*changing specific nav*/
         /* links */
+        display: block !important;
         text-decoration: underline;
         color: rgb(0, 0, 0);
     }
@@ -857,7 +939,7 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -92rem;
+        margin-top: -94rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -924,7 +1006,7 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -94rem;
+        margin-top: -95.5rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -946,7 +1028,7 @@ body {
         width: 60%;
         display: block;
         margin: 0 auto;
-        margin-top: 5.2rem;  
+        margin-top: 5.2rem;
     }
 
 
@@ -989,7 +1071,7 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -96rem;
+        margin-top: -97.5rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -1055,7 +1137,7 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -104rem;
+        margin-top: -105rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -1121,7 +1203,7 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -67rem;
+        margin-top: -68.5rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -1189,7 +1271,7 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -97rem;
+        margin-top: -98.5rem;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -1213,11 +1295,5 @@ body {
         margin-left: 10rem;
         padding-top: 2rem;
     }
-
-
-
-
-
-
 
 }
