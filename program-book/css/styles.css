@@ -698,7 +698,6 @@ body {
         margin-top: -18rem;
     }
 
-    /* better way to align this and add stroke please??*/
     .process {
         padding-top: 2rem;
         padding-bottom: 1rem;
@@ -707,16 +706,6 @@ body {
     .image-grid {
         grid-template-columns: 1fr 1fr 1fr;
         width: 40%
-    }
-
-    .process-p {
-        color: rgb(0, 0, 0);
-        width: 60.5%;
-        font-weight: 100;
-        font-size: 15pt;
-        margin: 0 auto;
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
     }
 
     .Unsatiable .menu-options {
@@ -731,13 +720,11 @@ body {
 
     nav ul {
         /* gets rid of bullet point */
-        display: block !important;
         list-style: none;
     }
 
     nav a {
         /*univeral default is that nav is white*/
-        display: block !important;
         text-decoration: underline;
         color: rgb(255, 255, 255);
 
@@ -746,7 +733,6 @@ body {
     .main nav a {
         /*changing specific nav*/
         /* links */
-        display: block !important;
         text-decoration: underline;
         color: rgb(0, 0, 0);
     }
@@ -794,7 +780,7 @@ body {
         columns: 1;
         padding-left: 22.2rem;
         padding-right: 22.2rem;
-        margin-top: -28.5rem;
+
     }
 
     .main .unsatiable-image {
