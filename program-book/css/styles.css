@@ -714,8 +714,12 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -122rem;
-        /* this keeps changing if I edit the bottom */
+        padding-top: 3rem;
+        position: absolute;
+    }
+
+    .Unsatiable nav {
+        display: block !important;
     }
 
     nav ul {
@@ -773,14 +777,19 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        padding-top: 5rem;
+        padding-top: 3rem;
+        position: absolute;
+    }
+
+    .main nav {
+        display: block !important;
     }
 
     .main .main-images {
         columns: 1;
         padding-left: 22.2rem;
         padding-right: 22.2rem;
-
+        padding-top: 3rem;
     }
 
     .main .unsatiable-image {
@@ -814,7 +823,6 @@ body {
     .main .mlk {
         padding-bottom: 3rem;
     }
-
 
 
 
@@ -864,7 +872,8 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -111rem;
+        padding-top: 3rem;
+        position: absolute;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -876,6 +885,10 @@ body {
         font-size: 15pt;
         margin: 0 auto;
         margin-top: -8rem;
+    }
+
+    .looza nav {
+        display: block !important;
     }
 
     .looza .third-link {
@@ -925,8 +938,12 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -94rem;
-        /* this keeps changing if I edit the bottom */
+        padding-top: 3rem;
+        position: absolute;
+    }
+
+    .global nav {
+        display: block !important;
     }
 
     .global .fourth-link {
@@ -992,8 +1009,13 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -95.5rem;
+        padding-top: 3rem;
+        position: absolute;
         /* this keeps changing if I edit the bottom */
+    }
+
+    .psaid nav {
+        display: block !important;
     }
 
     .psaid .fifth-link {
@@ -1039,6 +1061,10 @@ body {
         padding-left: 5rem;
     }
 
+    .app nav {
+        display: block !important;
+    }
+
     .app .intro p {
         /* FOR UNSATIABLE */
         color: rgb(255, 255, 255);
@@ -1057,7 +1083,8 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -97.5rem;
+        padding-top: 3rem;
+        position: absolute;
         /* this keeps changing if I edit the bottom */
     }
 
@@ -1123,8 +1150,13 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -105rem;
+        padding-top: 3rem;
+        position: absolute;
         /* this keeps changing if I edit the bottom */
+    }
+
+    .clothes nav {
+        display: block !important;
     }
 
     .clothes .seventh-link {
@@ -1180,7 +1212,7 @@ body {
         margin: 0 auto;
         padding-left: 2rem;
         margin-top: 2rem;
-        padding-bottom: 3rem;
+        padding-bottom: 4rem;
     }
 
     .recipe .menu-options {
@@ -1189,8 +1221,13 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -68.5rem;
+        padding-top: 3rem;
+        position: absolute;
         /* this keeps changing if I edit the bottom */
+    }
+
+    .recipe nav {
+        display: block !important;
     }
 
     .recipe .eighth-link {
@@ -1257,8 +1294,13 @@ body {
         line-height: 3rem;
         font-size: 15pt;
         padding-left: 2.8rem;
-        margin-top: -98.5rem;
+        padding-top: 3rem;
+        position: absolute;
         /* this keeps changing if I edit the bottom */
+    }
+
+    .mlk nav {
+        display: block !important;
     }
 
     .mlk .ninth-link {
