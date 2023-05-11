@@ -65,14 +65,20 @@ body {
 
   .table {
      padding-top: 9rem;
-     
+  
   } 
 
+  .pen {
+    margin: zero auto;
+    padding-top: 10rem;
+  }
+
   .p3 {
-      padding-top: 9rem;
+      padding-top: 7rem;
       stroke-width: .5px;
       stroke-color: rgb(73, 73, 73);
       color: #f5f5f5;
+      margin: zero auto;
   }
 
   .p3:hover {
@@ -81,11 +87,10 @@ body {
   }
 
   .p6 {
-    padding-top: 9rem;
-    padding-bottom: 9rem;
     stroke-width: .5px;
     stroke-color: rgb(73, 73, 73);
     color: #f5f5f5;
+  margin-left: - 5rem;
   }
 
   .p6:hover {
@@ -166,11 +171,6 @@ body {
 
       .navigation {
          font-size: 140%;
-         padding-top: 0rem;
-         padding-left: 0rem; /* this is what makes the text move all the way to the right */
-         position:relative; 
-         left: -40px;
-         top: 16px;
        }
 
        .herb {
